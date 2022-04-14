@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNIT_JOHNSON_SETTLER_NAME" Language="en_US">
+			<Text>Settler Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SETTLER_DESC" Language="en_US">
+			<Text>A super settler from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_BUILDER_NAME" Language="en_US">
+			<Text>Builder Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_BUILDER_DESC" Language="en_US">
+			<Text>A super builder from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_APOSTLE_NAME" Language="en_US">
+			<Text>Apostle Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_APOSTLE_DESC" Language="en_US">
+			<Text>A super apostle from the Johnson family.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_JOHNSON_SCOUT_NAME" Language="en_US">
+			<Text>Scout Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SCOUT_DESC" Language="en_US">
+			<Text>A super scout from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_NAME" Language="en_US">
+			<Text>Archer Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_DESC" Language="en_US">
+			<Text>A super archer from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_NAME" Language="en_US">
+			<Text>Sea Dog Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_DESC" Language="en_US">
+			<Text>A super sea dog from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_DESTROYER_NAME" Language="en_US">
+			<Text>Destroyer Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_DESTROYER_DESC" Language="en_US">
+			<Text>A super destroyer from the Johnson family.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

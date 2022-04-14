@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JohnsonBuddies_Promotions -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/13/2022 1:00:08 PM -->
+<GameData>
+
+	<Types>
+		<!--
+		<Row Type="PROMOTION_JOHNSON_ORATOR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_PROSELYTIZER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_TRANSLATOR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_PILGRIM" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_INDULGENCE_VENDOR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_HEATHEN_CONVERSION" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_DEBATER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_CHAPLAIN" Kind="KIND_PROMOTION"/>
+		-->
+		
+		<Row Type="PROMOTION_JOHNSON_MARTYR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_CLASS_JOHNSON_APOSTLE" Kind="KIND_PROMOTION_CLASS"/>
+	</Types>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_APOSTLE" Name="LOC_PROMOTION_CLASS_APOSTLE_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitPromotions>
+		<!--
+		<Row UnitPromotionType="PROMOTION_JOHNSON_ORATOR" Name="LOC_PROMOTION_ORATOR_NAME" Description="LOC_PROMOTION_ORATOR_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_PROSELYTIZER" Name="LOC_PROMOTION_PROSELYTIZER_NAME" Description="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION" Level="1" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_TRANSLATOR" Name="LOC_PROMOTION_TRANSLATOR_NAME" Description="LOC_PROMOTION_TRANSLATOR_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_PILGRIM" Name="LOC_PROMOTION_PILGRIM_NAME" Description="LOC_PROMOTION_PILGRIM_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_INDULGENCE_VENDOR" Name="LOC_PROMOTION_INDULGENCE_VENDOR_NAME" Description="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION" Level="2" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_HEATHEN_CONVERSION" Name="LOC_PROMOTION_HEATHEN_CONVERSION_NAME" Description="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_DEBATER" Name="LOC_PROMOTION_DEBATER_NAME" Description="LOC_PROMOTION_DEBATER_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_CHAPLAIN" Name="LOC_PROMOTION_CHAPLAIN_NAME" Description="LOC_PROMOTION_CHAPLAIN_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		-->
+		
+		<Row UnitPromotionType="PROMOTION_JOHNSON_MARTYR" Name="LOC_PROMOTION_MARTYR_NAME" Description="LOC_PROMOTION_MARTYR_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+	</UnitPromotions>
+
+	<UnitPromotionModifiers>
+		<!-- 
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_ORATOR</UnitPromotionType>
+			<ModifierId>APOSTLE_EXTRA_SPREAD_CHARGES</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_PROSELYTIZER</UnitPromotionType>
+			<ModifierId>APOSTLE_EVICT_ALL</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_TRANSLATOR</UnitPromotionType>
+			<ModifierId>APOSTLE_FOREIGN_SPREAD</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_PILGRIM</UnitPromotionType>
+			<ModifierId>APOSTLE_NW_DEFERRED_CHARGES</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_INDULGENCE_VENDOR</UnitPromotionType>
+			<ModifierId>APOSTLE_INITIATION_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_HEATHEN_CONVERSION</UnitPromotionType>
+			<ModifierId>APOSTLE_BARBARIAN_CONVERSION</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_DEBATER</UnitPromotionType>
+			<ModifierId>APOSTLE_DEBATER</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_CHAPLAIN</UnitPromotionType>
+			<ModifierId>APOSTLE_CHAPLAIN</ModifierId>
+		</Row>
+		-->
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_MARTYR</UnitPromotionType>
+			<ModifierId>APOSTLE_MARTYR</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+
+</GameData>

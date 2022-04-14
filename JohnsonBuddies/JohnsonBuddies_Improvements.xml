@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JohnsonBuddies_Improvements -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/12/2022 9:33:48 PM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FARM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" UnitType="UNIT_JOHNSON_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

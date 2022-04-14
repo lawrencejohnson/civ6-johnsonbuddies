@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Kind="KIND_UNIT"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_RELIGIOUS"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="UNIT_JOHNSON_APOSTLE" Tag="CLASS_RELIGIOUS_SPREAD"/>
+	</TypeTags>
+
+	<Units>
+		<Row>
+			<!-- 
+			<Row 
+				UnitType="UNIT_JOHNSON_APOSTLE" 
+				Cost="200" 
+				BaseMoves="4" 
+				BaseSightRange="2" 
+				ZoneOfControl="false" 
+				Domain="DOMAIN_LAND" 
+				FormationClass="FORMATION_CLASS_CIVILIAN" 
+				PromotionClass="PROMOTION_CLASS_APOSTLE" 
+				Name="LOC_UNIT_JOHNSON_APOSTLE_NAME" 
+				Description="LOC_UNIT_JOHNSON_APOSTLE_DESCRIPTION" 
+				CanCapture="False" 
+				CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
+				CostProgressionParam1="15" 
+				PurchaseYield="YIELD_FAITH" 
+				PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" 
+				ReligiousStrength="110" 
+				SpreadCharges="3" 
+				TrackReligion="TRUE" 
+				MustPurchase="TRUE" 
+				ReligionEvictPercent="25" 
+				EvangelizeBelief="true" 
+				LaunchInquisition="true" 
+				InitialLevel="2" 
+				NumRandomChoices="3"/>
+			-->
+			<UnitType>UNIT_JOHNSON_APOSTLE</UnitType>
+			<Name>LOC_UNIT_JOHNSON_APOSTLE_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_APOSTLE_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
+			<Cost>1</Cost>
+
+			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+
+			<CanCapture>false</CanCapture>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>
+			<MustPurchase>true</MustPurchase>
+			<TrackReligion>true</TrackReligion>
+			<ReligiousStrength>225</ReligiousStrength>
+			<ReligionEvictPercent>95</ReligionEvictPercent>
+			<EvangelizeBelief>true</EvangelizeBelief>
+			<LaunchInquisition>true</LaunchInquisition>
+			<SpreadCharges>10</SpreadCharges>
+			<ZoneOfControl>false</ZoneOfControl>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PurchaseYield>YIELD_FAITH</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_RELIGIOUS</PseudoYieldType>
+			<InitialLevel>2</InitialLevel>
+		</Row>
+	</Units>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_JOHNSON_APOSTLE" PrereqBuilding="BUILDING_TEMPLE"/>
+	</Unit_BuildingPrereqs>
+</GameData>
