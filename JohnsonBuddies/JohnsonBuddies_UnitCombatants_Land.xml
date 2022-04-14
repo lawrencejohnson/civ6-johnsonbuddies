@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_JOHNSON_SCOUT" Kind="KIND_UNIT" />
+		<Row Type="UNIT_JOHNSON_ARCHER" Kind="KIND_UNIT"/>
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_OBSERVATION"/>
+
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_MOBILE_RANGED"/>
+	</TypeTags>
+
+	<Units>
+		<Row>
+			<!--
+			<Row 
+				UnitType="UNIT_SCOUT" 
+				Cost="30" 
+				BaseMoves="3" 
+				BaseSightRange="2" 
+				ZoneOfControl="true" 
+				Domain="DOMAIN_LAND" 
+				Combat="6" 
+				FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+				PromotionClass="PROMOTION_CLASS_RECON" 
+				AdvisorType="ADVISOR_GENERIC" 
+				Name="LOC_UNIT_SCOUT_NAME" 
+				Description="LOC_UNIT_SCOUT_DESCRIPTION" 
+				PurchaseYield="YIELD_GOLD" 
+				PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/> -->
+			<UnitType>UNIT_JOHNSON_SCOUT</UnitType>
+			<Name>LOC_UNIT_JOHNSON_SCOUT_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_SCOUT_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>1</Cost>
+
+			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+
+			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
+			<Combat>225</Combat>
+			<ZoneOfControl>true</ZoneOfControl>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
+		</Row>
+
+		<Row>
+			<!-- 
+			<Row 
+				UnitType="UNIT_JOHNSON_ARCHER" 
+				Cost="60" 
+				Maintenance="1" 
+				BaseMoves="2" 
+				BaseSightRange="2" 
+				ZoneOfControl="false" 
+				Domain="DOMAIN_LAND" 
+				Combat="15" 
+				RangedCombat="25" 
+				Range="2" 
+				FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+				PromotionClass="PROMOTION_CLASS_RANGED" 
+				AdvisorType="ADVISOR_CONQUEST" 
+				Name="LOC_UNIT_JOHNSON_ARCHER_NAME" 
+				Description="LOC_UNIT_JOHNSON_ARCHER_DESCRIPTION" 
+				PurchaseYield="YIELD_GOLD" 
+				MandatoryObsoleteTech="TECH_BALLISTICS" 
+				PrereqTech="TECH_ARCHERY"/>
+			-->
+			<UnitType>UNIT_JOHNSON_ARCHER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_ARCHER_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_ARCHER_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>1</Cost>
+
+			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+
+			<Combat>225</Combat>
+			<RangedCombat>225</RangedCombat>
+			<Range>5</Range>
+			<ZoneOfControl>false</ZoneOfControl>
+			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+		</Row>
+	</Units>
+</GameData>

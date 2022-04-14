@@ -58,7 +58,7 @@
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>
 			<MustPurchase>true</MustPurchase>
 			<TrackReligion>true</TrackReligion>
-			<ReligiousStrength>225</ReligiousStrength>
+			<ReligiousStrength>375</ReligiousStrength>
 			<ReligionEvictPercent>95</ReligionEvictPercent>
 			<EvangelizeBelief>true</EvangelizeBelief>
 			<LaunchInquisition>true</LaunchInquisition>

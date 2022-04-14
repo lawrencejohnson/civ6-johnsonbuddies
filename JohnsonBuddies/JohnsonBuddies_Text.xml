@@ -15,6 +15,13 @@
 			<Text>A super builder from the Johnson family.</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_JOHNSON_SPY_NAME" Language="en_US">
+			<Text>Spy Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SPY_DESC" Language="en_US">
+			<Text>A super spy from the Johnson family.</Text>
+		</Row>
+
 		<Row Tag="LOC_UNIT_JOHNSON_APOSTLE_NAME" Language="en_US">
 			<Text>Apostle Johnson</Text>
 		</Row>
