@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_JOHNSON_MONUMENT" Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row>
+			<!--
+				<Row 
+					BuildingType="BUILDING_JOHNSON_MONUMENT" 
+					Name="LOC_BUILDING_JOHNSON_MONUMENT_NAME" 
+					PrereqDistrict="DISTRICT_CITY_CENTER" 
+					PurchaseYield="YIELD_GOLD" 
+					Cost="60" 
+					AdvisorType="ADVISOR_CULTURE"/>
+			-->
+			<BuildingType>BUILDING_JOHNSON_MONUMENT</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_MONUMENT_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_MONUMENT_DESC</Description>
+			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<Housing>5</Housing>
+			<CitizenSlots>5</CitizenSlots>
+			<Entertainment>13</Entertainment>
+			<RegionalRange>9</RegionalRange>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FOOD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_GOLD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
+	</Building_GreatWorks>
+
+	<!-- Expansion Content -->
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_LOYALTY"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MONUMENT_JOHNSON_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>MONUMENT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MONUMENT_JOHNSON_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>13</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

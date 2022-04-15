@@ -52,7 +52,7 @@
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<CanCapture>false</CanCapture>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>

@@ -17,6 +17,17 @@
       </libraryDependencies>
       <loadsLibraries>true</loadsLibraries>
     </Element>
+	<Element>
+		<consumerName text="Buildings"/>
+		<relativeArtDefPaths>
+			<Element text="Buildings.artdef" />
+		</relativeArtDefPaths>
+		<libraryDependencies>
+			<Element text="CityBuildings"/>
+			<Element text="StrategicView"/>
+		</libraryDependencies>
+		<loadsLibraries>true</loadsLibraries>
+	</Element>
     <Element>
       <consumerName text="Clutter"/>
       <relativeArtDefPaths>
@@ -281,6 +292,13 @@
       <libraryDependencies/>
       <loadsLibraries>false</loadsLibraries>
     </Element>
+	  <Element>
+		  <consumerName text="StrategicView"/>
+		  <relativeArtDefPaths>
+		  </relativeArtDefPaths>
+		  <libraryDependencies/>
+		  <loadsLibraries>false</loadsLibraries>
+	  </Element>
     <Element>
       <consumerName text="StrategicView_Translate"/>
       <relativeArtDefPaths>

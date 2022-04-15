@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="UNIT_JOHNSON_SETTLER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_BUILDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Kind="KIND_UNIT"/>
 	</Types>
 
 	<UnitAiInfos>
@@ -21,6 +22,12 @@
 
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_BUILDER"/>
+
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_ARCHAEOLOGIST"/>
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
 	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
@@ -56,7 +63,7 @@
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<FoundCity>true</FoundCity>
 			<PopulationCost>0</PopulationCost>
@@ -94,7 +101,7 @@
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<CanCapture>false</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
@@ -102,5 +109,49 @@
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<BuildCharges>9</BuildCharges>
 		</Row>
+
+		<Row>
+			<!--
+				<Row 
+					UnitType="UNIT_JOHNSON_ARCHAEOLOGIST" 
+					Cost="400" 
+					BaseMoves="4" 
+					BaseSightRange="2" 
+					ZoneOfControl="false" 
+					Domain="DOMAIN_LAND" 
+					FormationClass="FORMATION_CLASS_CIVILIAN" 
+					AdvisorType="ADVISOR_CULTURE" 
+					Name="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME" 
+					Description="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESCRIPTION" 
+					CanCapture="False" 
+					PurchaseYield="YIELD_GOLD" 
+					PseudoYieldType="PSEUDOYIELD_UNIT_ARCHAEOLOGIST" 
+					PrereqCivic="CIVIC_NATURAL_HISTORY" 
+					ExtractsArtifacts="true" 
+					CanRetreatWhenCaptured="True"/>
+			-->
+			<UnitType>UNIT_JOHNSON_ARCHAEOLOGIST</UnitType>
+			<Name>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
+			<Cost>1</Cost>
+
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+
+			<CanCapture>false</CanCapture>
+			<ZoneOfControl>false</ZoneOfControl>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_ARCHAEOLOGIST</PseudoYieldType>
+			<ExtractsArtifacts>true</ExtractsArtifacts>
+			<PrereqCivic>CIVIC_NATURAL_HISTORY</PrereqCivic>
+		</Row>
 	</Units>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_JOHNSON_ARCHAEOLOGIST" PrereqBuilding="BUILDING_JOHNSON_MONUMENT" NumSupported="1"/>
+	</Unit_BuildingPrereqs>
 </GameData>

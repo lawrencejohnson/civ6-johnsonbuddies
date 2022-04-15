@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		
 		<Row Tag="LOC_UNIT_JOHNSON_SETTLER_NAME" Language="en_US">
 			<Text>Settler Johnson</Text>
 		</Row>
@@ -13,6 +14,13 @@
 		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_BUILDER_DESC" Language="en_US">
 			<Text>A super builder from the Johnson family.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME" Language="en_US">
+			<Text>Archaeologist Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESC" Language="en_US">
+			<Text>A super archaeologist from the Johnson family.</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_JOHNSON_SPY_NAME" Language="en_US">
@@ -55,6 +63,19 @@
 		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_DESTROYER_DESC" Language="en_US">
 			<Text>A super destroyer from the Johnson family.</Text>
+		</Row>
+
+		<!-- Buildings -->
+		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">
+			<Text>Johnson Monument</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_DESC" Language="en_US">
+			<Text>Provides +13 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_NAME" Language="en_US">
+			<Text>Johnson Buddy unique set</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

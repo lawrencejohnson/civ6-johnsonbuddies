@@ -50,9 +50,10 @@
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 			<IgnoreMoves>true</IgnoreMoves>
 			<CanCapture>false</CanCapture>
+			<InitialLevel>4</InitialLevel>
 			<NumRandomChoices>3</NumRandomChoices>
 			<Spy>true</Spy>
 			<TeamVisibility>true</TeamVisibility>

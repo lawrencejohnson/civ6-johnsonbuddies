@@ -59,7 +59,7 @@
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>225</Combat>
@@ -100,7 +100,7 @@
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>

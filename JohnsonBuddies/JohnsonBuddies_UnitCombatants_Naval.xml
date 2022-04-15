@@ -66,7 +66,7 @@
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
 			<Combat>225</Combat>
@@ -108,7 +108,7 @@
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>1</Cost>
 
-			<TraitType>TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
 			<PromotionClass>PROMOTION_CLASS_NAVAL_MELEE</PromotionClass>
 			<Combat>225</Combat>
