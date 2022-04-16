@@ -18,29 +18,6 @@
 
 	<Units>
 		<Row>
-			<!--
-			<Row 
-				UnitType="UNIT_JOHNSON_SPY" 
-				Cost="225" 
-				Maintenance="4" 
-				BaseMoves="1" 
-				BaseSightRange="3" 
-				ZoneOfControl="false" 
-				Domain="DOMAIN_LAND" 
-				FormationClass="FORMATION_CLASS_CIVILIAN" 
-				PromotionClass="PROMOTION_CLASS_SPY" 
-				AdvisorType="ADVISOR_TECHNOLOGY" 
-				Name="LOC_UNIT_JOHNSON_SPY_NAME" 
-				Description="LOC_UNIT_JOHNSON_SPY_DESCRIPTION" 
-				CanCapture="False" 
-				CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
-				CostProgressionParam1="75" 
-				PseudoYieldType="PSEUDOYIELD_UNIT_JOHNSON_SPY" 
-				IgnoreMoves="true" 
-				NumRandomChoices="3" 
-				Spy="true" 
-				TeamVisibility="true"/> 
-			-->
 			<UnitType>UNIT_JOHNSON_SPY</UnitType>
 			<Name>LOC_UNIT_JOHNSON_SPY_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_SPY_DESC</Description>
@@ -49,7 +26,6 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 			<IgnoreMoves>true</IgnoreMoves>
 			<CanCapture>true</CanCapture>
@@ -63,6 +39,5 @@
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_SPY</PseudoYieldType>
 		</Row>
-		
 	</Units>
 </GameData>

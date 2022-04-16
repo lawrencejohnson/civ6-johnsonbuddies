@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Expansion1_Improvements -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/16/2022 1:35:53 PM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_CITY_PARK" UnitType="UNIT_JOHNSON_BUILDER"/>
+		
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" UnitType="UNIT_JOHNSON_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

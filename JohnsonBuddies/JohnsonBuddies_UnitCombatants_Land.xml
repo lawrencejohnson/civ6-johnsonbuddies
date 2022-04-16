@@ -34,22 +34,6 @@
 
 	<Units>
 		<Row>
-			<!--
-			<Row 
-				UnitType="UNIT_SCOUT" 
-				Cost="30" 
-				BaseMoves="3" 
-				BaseSightRange="2" 
-				ZoneOfControl="true" 
-				Domain="DOMAIN_LAND" 
-				Combat="6" 
-				FormationClass="FORMATION_CLASS_LAND_COMBAT" 
-				PromotionClass="PROMOTION_CLASS_RECON" 
-				AdvisorType="ADVISOR_GENERIC" 
-				Name="LOC_UNIT_SCOUT_NAME" 
-				Description="LOC_UNIT_SCOUT_DESCRIPTION" 
-				PurchaseYield="YIELD_GOLD" 
-				PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/> -->
 			<UnitType>UNIT_JOHNSON_SCOUT</UnitType>
 			<Name>LOC_UNIT_JOHNSON_SCOUT_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_SCOUT_DESC</Description>
@@ -58,9 +42,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>225</Combat>
 			<ZoneOfControl>true</ZoneOfControl>
@@ -70,27 +52,6 @@
 		</Row>
 
 		<Row>
-			<!-- 
-			<Row 
-				UnitType="UNIT_JOHNSON_ARCHER" 
-				Cost="60" 
-				Maintenance="1" 
-				BaseMoves="2" 
-				BaseSightRange="2" 
-				ZoneOfControl="false" 
-				Domain="DOMAIN_LAND" 
-				Combat="15" 
-				RangedCombat="25" 
-				Range="2" 
-				FormationClass="FORMATION_CLASS_LAND_COMBAT" 
-				PromotionClass="PROMOTION_CLASS_RANGED" 
-				AdvisorType="ADVISOR_CONQUEST" 
-				Name="LOC_UNIT_JOHNSON_ARCHER_NAME" 
-				Description="LOC_UNIT_JOHNSON_ARCHER_DESCRIPTION" 
-				PurchaseYield="YIELD_GOLD" 
-				MandatoryObsoleteTech="TECH_BALLISTICS" 
-				PrereqTech="TECH_ARCHERY"/>
-			-->
 			<UnitType>UNIT_JOHNSON_ARCHER</UnitType>
 			<Name>LOC_UNIT_JOHNSON_ARCHER_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_ARCHER_DESC</Description>
@@ -99,9 +60,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
 			<Range>5</Range>
@@ -111,4 +70,9 @@
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 		</Row>
 	</Units>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
+	</UnitReplaces>
 </GameData>

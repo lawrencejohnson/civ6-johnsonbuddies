@@ -30,30 +30,8 @@
 		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
-	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
 	<Units>
 		<Row>
-			<!-- 
-			<Row 
-				UnitType="UNIT_JOHNSON_SETTLER" 
-				Cost="80" 
-				BaseMoves="2" 
-				BaseSightRange="3" 
-				ZoneOfControl="false" 
-				Domain="DOMAIN_LAND" 
-				FormationClass="FORMATION_CLASS_CIVILIAN" 
-				FoundCity="true" 
-				PopulationCost="1" 
-				PrereqPopulation="2" 
-				AdvisorType="ADVISOR_GENERIC" 
-				Name="LOC_UNIT_JOHNSON_SETTLER_NAME" 
-				Description="LOC_UNIT_JOHNSON_SETTLER_DESCRIPTION" 
-				CanCapture="False" 
-				CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
-				CostProgressionParam1="30" 
-				PurchaseYield="YIELD_GOLD" 
-				PseudoYieldType="PSEUDOYIELD_UNIT_JOHNSON_SETTLER"/>
-			-->
 			<UnitType>UNIT_JOHNSON_SETTLER</UnitType>
 			<Name>LOC_UNIT_JOHNSON_SETTLER_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_SETTLER_DESC</Description>
@@ -62,9 +40,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<FoundCity>true</FoundCity>
 			<PopulationCost>0</PopulationCost>
 			<PrereqPopulation>0</PrereqPopulation>
@@ -75,23 +51,6 @@
 		</Row>
 
 		<Row>
-			<!--
-			<Row 
-				UnitType="UNIT_JOHNSON_BUILDER" 
-				Cost="50" 
-				BaseMoves="2" 
-				BaseSightRange="2" 
-				ZoneOfControl="false" 
-				Domain="DOMAIN_LAND" 
-				FormationClass="FORMATION_CLASS_CIVILIAN" 
-				AdvisorType="ADVISOR_GENERIC" 
-				Name="LOC_UNIT_JOHNSON_BUILDER_NAME" 
-				Description="LOC_UNIT_JOHNSON_BUILDER_DESCRIPTION" 
-				CanCapture="False" 
-				CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
-				CostProgressionParam1="4" 
-				PurchaseYield="YIELD_GOLD" 
-				BuildCharges="3"/>-->
 			<UnitType>UNIT_JOHNSON_BUILDER</UnitType>
 			<Name>LOC_UNIT_JOHNSON_BUILDER_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_BUILDER_DESC</Description>
@@ -100,9 +59,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
@@ -111,25 +68,6 @@
 		</Row>
 
 		<Row>
-			<!--
-				<Row 
-					UnitType="UNIT_JOHNSON_ARCHAEOLOGIST" 
-					Cost="400" 
-					BaseMoves="4" 
-					BaseSightRange="2" 
-					ZoneOfControl="false" 
-					Domain="DOMAIN_LAND" 
-					FormationClass="FORMATION_CLASS_CIVILIAN" 
-					AdvisorType="ADVISOR_CULTURE" 
-					Name="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME" 
-					Description="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESCRIPTION" 
-					CanCapture="False" 
-					PurchaseYield="YIELD_GOLD" 
-					PseudoYieldType="PSEUDOYIELD_UNIT_ARCHAEOLOGIST" 
-					PrereqCivic="CIVIC_NATURAL_HISTORY" 
-					ExtractsArtifacts="true" 
-					CanRetreatWhenCaptured="True"/>
-			-->
 			<UnitType>UNIT_JOHNSON_ARCHAEOLOGIST</UnitType>
 			<Name>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESC</Description>
@@ -138,9 +76,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
@@ -151,7 +87,13 @@
 		</Row>
 	</Units>
 
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_SETTLER" ReplacesUnitType="UNIT_SETTLER"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_BUILDER" ReplacesUnitType="UNIT_BUILDER"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHAEOLOGIST" ReplacesUnitType="UNIT_ARCHAEOLOGIST"/>
+	</UnitReplaces>
+
 	<Unit_BuildingPrereqs>
-		<Row Unit="UNIT_JOHNSON_ARCHAEOLOGIST" PrereqBuilding="BUILDING_JOHNSON_MONUMENT" NumSupported="1"/>
+		<Row Unit="UNIT_JOHNSON_ARCHAEOLOGIST" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT" NumSupported="1"/>
 	</Unit_BuildingPrereqs>
 </GameData>

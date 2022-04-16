@@ -16,33 +16,6 @@
 
 	<Units>
 		<Row>
-			<!-- 
-			<Row 
-				UnitType="UNIT_JOHNSON_APOSTLE" 
-				Cost="200" 
-				BaseMoves="4" 
-				BaseSightRange="2" 
-				ZoneOfControl="false" 
-				Domain="DOMAIN_LAND" 
-				FormationClass="FORMATION_CLASS_CIVILIAN" 
-				PromotionClass="PROMOTION_CLASS_APOSTLE" 
-				Name="LOC_UNIT_JOHNSON_APOSTLE_NAME" 
-				Description="LOC_UNIT_JOHNSON_APOSTLE_DESCRIPTION" 
-				CanCapture="False" 
-				CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" 
-				CostProgressionParam1="15" 
-				PurchaseYield="YIELD_FAITH" 
-				PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" 
-				ReligiousStrength="110" 
-				SpreadCharges="3" 
-				TrackReligion="TRUE" 
-				MustPurchase="TRUE" 
-				ReligionEvictPercent="25" 
-				EvangelizeBelief="true" 
-				LaunchInquisition="true" 
-				InitialLevel="2" 
-				NumRandomChoices="3"/>
-			-->
 			<UnitType>UNIT_JOHNSON_APOSTLE</UnitType>
 			<Name>LOC_UNIT_JOHNSON_APOSTLE_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_APOSTLE_DESC</Description>
@@ -51,9 +24,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<CanCapture>true</CanCapture>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>
 			<MustPurchase>true</MustPurchase>
@@ -74,4 +45,8 @@
 	<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_JOHNSON_APOSTLE" PrereqBuilding="BUILDING_TEMPLE"/>
 	</Unit_BuildingPrereqs>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_APOSTLE" ReplacesUnitType="UNIT_APOSTLE"/>
+	</UnitReplaces>
 </GameData>

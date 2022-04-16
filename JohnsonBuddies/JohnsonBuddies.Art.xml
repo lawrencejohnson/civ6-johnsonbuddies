@@ -38,17 +38,18 @@
       </libraryDependencies>
       <loadsLibraries>true</loadsLibraries>
     </Element>
-    <Element>
-      <consumerName text="Landmarks"/>
-      <relativeArtDefPaths>
-      </relativeArtDefPaths>
-      <libraryDependencies>
-        <Element text="CityBuildings"/>
-        <Element text="TileBase"/>
-        <Element text="RouteDecalMaterial"/>
-      </libraryDependencies>
-      <loadsLibraries>true</loadsLibraries>
-    </Element>
+	  <Element>
+		  <consumerName text="Landmarks"/>
+		  <relativeArtDefPaths>
+			  <Element text="Landmarks.artdef" />
+		  </relativeArtDefPaths>
+		  <libraryDependencies>
+			  <Element text="CityBuildings"/>
+			  <Element text="TileBase"/>
+			  <Element text="RouteDecalMaterial"/>
+		  </libraryDependencies>
+		  <loadsLibraries>true</loadsLibraries>
+	  </Element>
     <Element>
       <consumerName text="Farms"/>
       <relativeArtDefPaths>

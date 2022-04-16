@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Expansion2_Improvements -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/16/2022 1:37:43 PM -->
+<GameData>
+	<Improvement_ValidBuildUnits>
+		<!-- Expac 1 Items -->
+		<Row ImprovementType="IMPROVEMENT_FISHERY" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_CITY_PARK" UnitType="UNIT_JOHNSON_BUILDER"/>
+		
+		<!-- Expac 2 Items -->
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" UnitType="UNIT_JOHNSON_BUILDER"/>
+		
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

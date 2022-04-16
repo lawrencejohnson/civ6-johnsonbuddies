@@ -2,7 +2,6 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_JOHNSON_SEADOG" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_JOHNSON_DESTROYER" Kind="KIND_UNIT"/>
 	</Types>
 
 	<UnitAiInfos>
@@ -10,11 +9,6 @@
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_NAVAL"/>
-
-		<Row UnitType="UNIT_JOHNSON_DESTROYER" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_JOHNSON_DESTROYER" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_JOHNSON_DESTROYER" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_JOHNSON_DESTROYER" AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 
 	<TypeTags>
@@ -25,38 +19,10 @@
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_CAPTURE_SHIPS"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_OBSERVATION"/>
-
-		<Row Type="UNIT_JOHNSON_DESTROYER" Tag="CLASS_NAVAL_MELEE"/>
-		<Row Type="UNIT_JOHNSON_DESTROYER" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_DESTROYER" Tag="CLASS_ANTI_AIR"/>
-		<Row Type="UNIT_JOHNSON_DESTROYER" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
 	<Units>
-
 		<Row>
-			<!-- <Row 
-				UnitType="UNIT_JOHNSON_SEADOG" 
-				Cost="280" 
-				Maintenance="4" 
-				BaseMoves="4" 
-				BaseSightRange="2" 
-				ZoneOfControl="true" 
-				Domain="DOMAIN_SEA" 
-				Combat="40" 
-				RangedCombat="55" 
-				Range="2" 
-				FormationClass="FORMATION_CLASS_NAVAL" 
-				PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" 
-				AdvisorType="ADVISOR_CONQUEST" 
-				Name="LOC_UNIT_JOHNSON_SEADOG_NAME" 
-				Description="LOC_UNIT_JOHNSON_SEADOG_DESCRIPTION" 
-				PurchaseYield="YIELD_GOLD" 
-				PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" 
-				PrereqCivic="CIVIC_MERCANTILISM" 
-				MandatoryObsoleteTech="TECH_TELECOMMUNICATIONS" 
-				TraitType="TRAIT_CIVILIZATION_UNIT_JOHNSON_SEADOG"/>-->
-
 			<UnitType>UNIT_JOHNSON_SEADOG</UnitType>
 			<Name>LOC_UNIT_JOHNSON_SEADOG_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_SEADOG_DESC</Description>
@@ -65,9 +31,7 @@
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>1</Cost>
-
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
 			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
@@ -78,45 +42,9 @@
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 		</Row>
-
-		<Row>
-			<!-- <Row 
-				UnitType="UNIT_DESTROYER" 
-				Cost="540" 
-				Maintenance="7" 
-				BaseMoves="4" 
-				BaseSightRange="3" 
-				ZoneOfControl="true" 
-				Domain="DOMAIN_SEA" 
-				Combat="85" 
-				AntiAirCombat="90" 
-				FormationClass="FORMATION_CLASS_NAVAL" 
-				PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
-				AdvisorType="ADVISOR_CONQUEST" 
-				Name="LOC_UNIT_JOHNSON_DESTROYER_NAME" 
-				Description="LOC_UNIT_JOHNSON_DESTROYER_DESCRIPTION" 
-				PurchaseYield="YIELD_GOLD" 
-				seudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" 
-				PrereqTech="TECH_COMBINED_ARMS"/> -->
-
-			<UnitType>UNIT_JOHNSON_DESTROYER</UnitType>
-			<Name>LOC_UNIT_JOHNSON_DESTROYER_NAME</Name>
-			<Description>LOC_UNIT_JOHNSON_DESTROYER_DESC</Description>
-			<BaseSightRange>6</BaseSightRange>
-			<BaseMoves>9</BaseMoves>
-			<Domain>DOMAIN_SEA</Domain>
-			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
-			<Cost>1</Cost>
-
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-
-			<PromotionClass>PROMOTION_CLASS_NAVAL_MELEE</PromotionClass>
-			<Combat>225</Combat>
-			<AntiAirCombat>225</AntiAirCombat>
-			<ZoneOfControl>true</ZoneOfControl>
-			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
-		</Row>
 	</Units>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_SEADOG" ReplacesUnitType="UNIT_GALLEY"/>
+	</UnitReplaces>
 </GameData>

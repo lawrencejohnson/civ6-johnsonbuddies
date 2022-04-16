@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CivilizationTraits>
+		<!-- Civs Allowed Here in this file
+			(base - See JohnsonBuddies_Civilizations)
+		
+			(expansion 1 - Rise and Fall)
+			CIVILIZATION_CREE
+			CIVILIZATION_GEORGIA
+			CIVILIZATION_KOREA
+			CIVILIZATION_MAPUCHE
+			CIVILIZATION_MONGOLIA
+			CIVILIZATION_NETHERLANDS
+			CIVILIZATION_SCOTLAND
+			CIVILIZATION_ZULU
+		
+			(expansion 2 - Gathering Storm)
+			CIVILIZATION_CANADA
+			CIVILIZATION_HUNGARY
+			CIVILIZATION_INCA
+			CIVILIZATION_MALI
+			CIVILIZATION_MAORI
+			CIVILIZATION_OTTOMAN
+			CIVILIZATION_PHOENICIA
+			CIVILIZATION_SWEDEN
+		-->
+		
+		<!--
+			A smart way to use this file so it works with friends, is to define what civs you want to provide in this file, expansion 1, and base (JohnsonBuddies_Civilizations).
+			Use the delete syntax to remove previous definitions before adding them after.
+		-->
+
+		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+		<Delete CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+
+		<!-- Add or Remove Civilizations to receive Johnson Buddies -->
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+		<Row CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+	</CivilizationTraits>
+</GameData>

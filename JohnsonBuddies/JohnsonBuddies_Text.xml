@@ -2,6 +2,7 @@
 <GameData>
 	<LocalizedText>
 		
+		<!-- Settlements -->
 		<Row Tag="LOC_UNIT_JOHNSON_SETTLER_NAME" Language="en_US">
 			<Text>Settler Johnson</Text>
 		</Row>
@@ -16,6 +17,7 @@
 			<Text>A super builder from the Johnson family.</Text>
 		</Row>
 
+		<!-- Misc Civilian -->
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME" Language="en_US">
 			<Text>Archaeologist Johnson</Text>
 		</Row>
@@ -30,6 +32,7 @@
 			<Text>A super spy from the Johnson family.</Text>
 		</Row>
 
+		<!-- Religious -->
 		<Row Tag="LOC_UNIT_JOHNSON_APOSTLE_NAME" Language="en_US">
 			<Text>Apostle Johnson</Text>
 		</Row>
@@ -37,6 +40,7 @@
 			<Text>A super apostle from the Johnson family.</Text>
 		</Row>
 		
+		<!-- Melee -->
 		<Row Tag="LOC_UNIT_JOHNSON_SCOUT_NAME" Language="en_US">
 			<Text>Scout Johnson</Text>
 		</Row>
@@ -51,6 +55,7 @@
 			<Text>A super archer from the Johnson family.</Text>
 		</Row>
 
+		<!-- Naval -->
 		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_NAME" Language="en_US">
 			<Text>Sea Dog Johnson</Text>
 		</Row>
@@ -58,26 +63,52 @@
 			<Text>A super sea dog from the Johnson family.</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_JOHNSON_DESTROYER_NAME" Language="en_US">
-			<Text>Destroyer Johnson</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_JOHNSON_DESTROYER_DESC" Language="en_US">
-			<Text>A super destroyer from the Johnson family.</Text>
-		</Row>
-
-		<!-- Buildings -->
+		<!-- Ancient Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">
 			<Text>Johnson Monument</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_DESC" Language="en_US">
 			<Text>Provides +13 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
 		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_WORKSHOP_NAME" Language="en_US">
+			<Text>Johnson Workshop</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_WORKSHOP_DESC" Language="en_US">
+			<Text>An early game super production shop from the Johnson family.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_LIBRARY_NAME" Language="en_US">
+			<Text>Johnson Library</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_LIBRARY_DESC" Language="en_US">
+			<Text>A super library from the Johnson family.</Text>
+		</Row>
 
+		<!-- Renaissance Buildings -->
+		<Row Tag="LOC_BUILDING_JOHNSON_MUSEUM_ART_NAME" Language="en_US">
+			<Text>Johnson Art Museum</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_MUSEUM_ART_DESC" Language="en_US">
+			<Text>A super museum to hold works of art from the Johnson family.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_MUSEUM_ARTIFACT_NAME" Language="en_US">
+			<Text>Johnson Archaeological Museum</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_MUSEUM_ARTIFACT_DESC" Language="en_US">
+			<Text>A super museum to hold artifacts from the Johnson family.</Text>
+		</Row>
+
+		<!-- Modern Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_POWER_NAME" Language="en_US">
 			<Text>Johnson Power Plant</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOHNSON_POWER_DESC" Language="en_US">
 			<Text>Provides the city +6 [ICON_Power] Power from the power of Johnson.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_BROADCAST_CENTER_NAME" Language="en_US">
+			<Text>Johnson Broadcast Center</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_BROADCAST_CENTER_DESC" Language="en_US">
+			<Text>A super broadcast center from the Johnson family.</Text>
 		</Row>
 		
 		<!-- Traits -->

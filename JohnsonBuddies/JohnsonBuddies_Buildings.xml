@@ -2,47 +2,88 @@
 <GameData>
 	<Types>
 		<Row Type="BUILDING_JOHNSON_MONUMENT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_WORKSHOP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_LIBRARY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_MUSEUM_ART" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_MUSEUM_ARTIFACT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_POWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_BROADCAST_CENTER" Kind="KIND_BUILDING"/>
 	</Types>
 
 	<Buildings>
+		<!-- RegionalRange is for Power and Entertainment -->
 		<Row>
-			<!--
-				<Row 
-					BuildingType="BUILDING_JOHNSON_MONUMENT" 
-					Name="LOC_BUILDING_JOHNSON_MONUMENT_NAME" 
-					PrereqDistrict="DISTRICT_CITY_CENTER" 
-					PurchaseYield="YIELD_GOLD" 
-					Cost="60" 
-					AdvisorType="ADVISOR_CULTURE"/>
-			-->
 			<BuildingType>BUILDING_JOHNSON_MONUMENT</BuildingType>
 			<Name>LOC_BUILDING_JOHNSON_MONUMENT_NAME</Name>
 			<Description>LOC_BUILDING_JOHNSON_MONUMENT_DESC</Description>
 			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<Cost>1</Cost>
-			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>5</Housing>
-			<CitizenSlots>5</CitizenSlots>
-			<Entertainment>13</Entertainment>
+			<CitizenSlots>2</CitizenSlots>
+			<Entertainment>5</Entertainment>
 			<RegionalRange>6</RegionalRange>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 		</Row>
 
 		<Row>
-			<!--
-				<Row 
-					BuildingType="BUILDING_HYDROELECTRIC_DAM" 
-					Name="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" 
-					Description="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" 
-					PrereqTech="TECH_ELECTRICITY" 
-					PrereqDistrict="DISTRICT_DAM" 
-					PurchaseYield="YIELD_GOLD" 
-					Cost="580" 
-					AdvisorType="ADVISOR_GENERIC" 
-					Maintenance="1"/>
-			-->
+			<BuildingType>BUILDING_JOHNSON_WORKSHOP</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_WORKSHOP_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_WORKSHOP_DESC</Description>
+			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_JOHNSON_LIBRARY</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_LIBRARY_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_LIBRARY_DESC</Description>
+			<PrereqDistrict>DISTRICT_CAMPUS</PrereqDistrict>
+			<PrereqTech>TECH_WRITING</PrereqTech>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_JOHNSON_MUSEUM_ART</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_MUSEUM_ART_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_MUSEUM_ART_DESC</Description>
+			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
+			<PrereqCivic>CIVIC_HUMANISM</PrereqCivic>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_JOHNSON_MUSEUM_ARTIFACT</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_MUSEUM_ARTIFACT_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_MUSEUM_ARTIFACT_DESC</Description>
+			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
+			<PrereqCivic>CIVIC_HUMANISM</PrereqCivic>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_JOHNSON_POWER</BuildingType>
 			<Name>LOC_BUILDING_JOHNSON_POWER_NAME</Name>
 			<Description>LOC_BUILDING_JOHNSON_POWER_DESC</Description>
@@ -52,79 +93,111 @@
 			<Cost>1</Cost>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>5</Housing>
-			<CitizenSlots>5</CitizenSlots>
+			<CitizenSlots>1</CitizenSlots>
 			<RegionalRange>6</RegionalRange>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_JOHNSON_BROADCAST_CENTER</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_BROADCAST_CENTER_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_BROADCAST_CENTER_DESC</Description>
+			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 		</Row>
 	</Buildings>
 
-	<Buildings_XP2>
-		<!-- For Expansion 2 -->
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" PreventsFloods="true"/>
-	</Buildings_XP2>
+	<BuildingPrereqs>
+		<!-- 
+		<Row Building="BUILDING_FACTORY" PrereqBuilding="BUILDING_JOHNSON_WORKSHOP"/>
+		<Row Building="BUILDING_ELECTRONICS_FACTORY" PrereqBuilding="BUILDING_JOHNSON_WORKSHOP"/>
+		
+		<Row Building="BUILDING_UNIVERSITY" PrereqBuilding="BUILDING_JOHNSON_LIBRARY"/>
+		<Row Building="BUILDING_MADRASA" PrereqBuilding="BUILDING_JOHNSON_LIBRARY"/>
+		
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ART"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT"/>
+		-->
+	</BuildingPrereqs>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MONUMENT" ReplacesBuildingType="BUILDING_MONUMENT"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_LIBRARY" ReplacesBuildingType="BUILDING_LIBRARY"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MUSEUM_ART" ReplacesBuildingType="BUILDING_MUSEUM_ART"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" ReplacesBuildingType="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_POWER" ReplacesBuildingType="BUILDING_POWER_PLANT"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" ReplacesBuildingType="BUILDING_BROADCAST_CENTER"/>
+	</BuildingReplaces>
 
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<!-- Start Game: Monument gives great base stats to any city, except production cuz too OP for early game (run out of stuff to build) -->
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FOOD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_GOLD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="5"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_CULTURE" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<!-- Ancient Era: Workshop boosts production and gold -->
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+
+		<!-- Ancient Era: Library boosts science and culture -->
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		
+		<!-- Renaissance Era: Museums provide culture benefits -->
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="5"/>
+
+		<!-- Modern Era: Provides electricity, plus more stats for late game benefits -->
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FOOD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_GOLD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		
+		<!-- Modern Era: Broadcast Centers for music and culture -->
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="5"/>
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="9"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="4"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="4"/>
+		
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="9"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="4"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="3"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="3"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="1" />
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"
+			 ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100"
+			 NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART" />
+		
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="3"
+			 ThemingSameEras="true" ThemingUniqueCivs="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" 
+			 NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY"/>
+		
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
 	</Building_GreatWorks>
-
-	<BuildingModifiers>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_LOYALTY"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
-
-		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MONUMENT_JOHNSON_LOYALTY"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MERCHANT_RENEWABLE_ENERGY_HYDROELECTRIC_DAM_FREE_POWER"/>
-	</BuildingModifiers>
-
-	<Modifiers>
-		<Row>
-			<ModifierId>MONUMENT_JOHNSON_LOYALTY</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
-			<SubjectRequirementSetId>MONUMENT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-	</Modifiers>
-	
-	<ModifierArguments>
-		<Row>
-			<ModifierId>MONUMENT_JOHNSON_LOYALTY</ModifierId>
-			<Name>Amount</Name>
-			<Value>13</Value>
-		</Row>
-		<Row>
-			<ModifierId>MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-	</ModifierArguments>
 </GameData>
