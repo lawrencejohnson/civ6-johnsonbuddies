@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="BUILDING_JOHNSON_MONUMENT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_POWER" Kind="KIND_BUILDING"/>
 	</Types>
 
 	<Buildings>
@@ -25,10 +26,42 @@
 			<Housing>5</Housing>
 			<CitizenSlots>5</CitizenSlots>
 			<Entertainment>13</Entertainment>
-			<RegionalRange>9</RegionalRange>
+			<RegionalRange>6</RegionalRange>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+
+		<Row>
+			<!--
+				<Row 
+					BuildingType="BUILDING_HYDROELECTRIC_DAM" 
+					Name="LOC_BUILDING_HYDROELECTRIC_DAM_NAME" 
+					Description="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" 
+					PrereqTech="TECH_ELECTRICITY" 
+					PrereqDistrict="DISTRICT_DAM" 
+					PurchaseYield="YIELD_GOLD" 
+					Cost="580" 
+					AdvisorType="ADVISOR_GENERIC" 
+					Maintenance="1"/>
+			-->
+			<BuildingType>BUILDING_JOHNSON_POWER</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_POWER_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_POWER_DESC</Description>
+			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>1</Cost>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<Housing>5</Housing>
+			<CitizenSlots>5</CitizenSlots>
+			<RegionalRange>6</RegionalRange>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 		</Row>
 	</Buildings>
+
+	<Buildings_XP2>
+		<!-- For Expansion 2 -->
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" PreventsFloods="true"/>
+	</Buildings_XP2>
 
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="9"/>
@@ -37,10 +70,19 @@
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_GOLD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FOOD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_GOLD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_SCIENCE" YieldChange="9"/>
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="9"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
@@ -51,10 +93,14 @@
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
 	</Building_GreatWorks>
 
-	<!-- Expansion Content -->
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_LOYALTY"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MONUMENT_JOHNSON_LOYALTY"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MERCHANT_RENEWABLE_ENERGY_HYDROELECTRIC_DAM_FREE_POWER"/>
 	</BuildingModifiers>
 
 	<Modifiers>

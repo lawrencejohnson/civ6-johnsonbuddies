@@ -68,7 +68,7 @@
 			<FoundCity>true</FoundCity>
 			<PopulationCost>0</PopulationCost>
 			<PrereqPopulation>0</PrereqPopulation>
-			<CanCapture>false</CanCapture>
+			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
@@ -103,7 +103,7 @@
 
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
-			<CanCapture>false</CanCapture>
+			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
@@ -141,7 +141,7 @@
 
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
-			<CanCapture>false</CanCapture>
+			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>

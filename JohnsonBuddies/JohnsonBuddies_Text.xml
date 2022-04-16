@@ -72,6 +72,13 @@
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_DESC" Language="en_US">
 			<Text>Provides +13 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
 		</Row>
+
+		<Row Tag="LOC_BUILDING_JOHNSON_POWER_NAME" Language="en_US">
+			<Text>Johnson Power Plant</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_POWER_DESC" Language="en_US">
+			<Text>Provides the city +6 [ICON_Power] Power from the power of Johnson.</Text>
+		</Row>
 		
 		<!-- Traits -->
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_NAME" Language="en_US">

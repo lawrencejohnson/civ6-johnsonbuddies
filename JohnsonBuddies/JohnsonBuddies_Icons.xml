@@ -105,6 +105,10 @@
 
 		<!-- Buildings -->
 		<Row Name="ICON_BUILDING_JOHNSON_MONUMENT"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_JOHNSON_MONUMENT"            Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+
+		<Row Name="ICON_BUILDING_JOHNSON_POWER"          Atlas="ICON_ATLAS_BUILDINGS" Index="34"/>
+		<Row Name="ICON_BUILDING_JOHNSON_POWER_FOW"         Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="34"/>
 	</IconDefinitions>
 	
 	<IconAliases>

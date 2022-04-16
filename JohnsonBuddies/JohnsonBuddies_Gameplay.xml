@@ -52,7 +52,7 @@
 
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 			<IgnoreMoves>true</IgnoreMoves>
-			<CanCapture>false</CanCapture>
+			<CanCapture>true</CanCapture>
 			<InitialLevel>4</InitialLevel>
 			<NumRandomChoices>3</NumRandomChoices>
 			<Spy>true</Spy>

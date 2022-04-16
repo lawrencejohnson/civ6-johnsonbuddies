@@ -54,7 +54,7 @@
 
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 
-			<CanCapture>false</CanCapture>
+			<CanCapture>true</CanCapture>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>
 			<MustPurchase>true</MustPurchase>
 			<TrackReligion>true</TrackReligion>
