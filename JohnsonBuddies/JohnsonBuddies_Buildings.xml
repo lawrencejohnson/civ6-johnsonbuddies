@@ -180,6 +180,8 @@
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="4"/>
 
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="4"/>
+
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="9"/>

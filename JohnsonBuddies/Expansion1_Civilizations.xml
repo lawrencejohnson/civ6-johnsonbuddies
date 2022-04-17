@@ -21,10 +21,8 @@
 		-->
 
 		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
-		<Delete CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
 
 		<!-- Add or Remove Civilizations to receive Johnson Buddies -->
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
-		<Row CivilizationType="CIVILIZATION_NORWAY" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
 	</CivilizationTraits>
 </GameData>
