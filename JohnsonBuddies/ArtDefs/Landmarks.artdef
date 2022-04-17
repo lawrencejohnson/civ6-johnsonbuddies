@@ -362,7 +362,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon, 120"/>
+							<m_Name text="ANC Canal, Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -423,7 +423,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon, 120001"/>
+							<m_Name text="ANC Canal, Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -484,7 +484,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon, 180"/>
+							<m_Name text="ANC Canal, Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -545,7 +545,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon_Gran, 120"/>
+							<m_Name text="ANC Canal, Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -606,7 +606,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon_Gran, 120001"/>
+							<m_Name text="ANC Canal, Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -667,7 +667,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, JohnsonMon_Gran, 180"/>
+							<m_Name text="ANC Canal, Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -729,7 +729,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon, 120"/>
+							<m_Name text="ANC Canal, Pal_Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -790,7 +790,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon, 120001"/>
+							<m_Name text="ANC Canal, Pal_Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -851,7 +851,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon, 180"/>
+							<m_Name text="ANC Canal, Pal_Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -912,7 +912,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon_Gran, 120"/>
+							<m_Name text="ANC Canal, Pal_Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -973,7 +973,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon_Gran, 120001"/>
+							<m_Name text="ANC Canal, Pal_Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1034,7 +1034,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="ANC Canal, Pal_JohnsonMon_Gran, 180"/>
+							<m_Name text="ANC Canal, Pal_Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -1096,7 +1096,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon, 120"/>
+							<m_Name text="CLA Canal, Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1157,7 +1157,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon, 120001"/>
+							<m_Name text="CLA Canal, Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1218,7 +1218,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon, 180"/>
+							<m_Name text="CLA Canal, Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1279,7 +1279,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon_Gran, 120"/>
+							<m_Name text="CLA Canal, Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1340,7 +1340,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon_Gran, 120001"/>
+							<m_Name text="CLA Canal, Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1401,7 +1401,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, JohnsonMon_Gran, 180"/>
+							<m_Name text="CLA Canal, Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -1463,7 +1463,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon, 120"/>
+							<m_Name text="CLA Canal, Pal_Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1524,7 +1524,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon, 120001"/>
+							<m_Name text="CLA Canal, Pal_Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1585,7 +1585,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon, 180"/>
+							<m_Name text="CLA Canal, Pal_Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1646,7 +1646,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon_Gran, 120"/>
+							<m_Name text="CLA Canal, Pal_Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1707,7 +1707,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon_Gran, 120001"/>
+							<m_Name text="CLA Canal, Pal_Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1768,7 +1768,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="CLA Canal, Pal_JohnsonMon_Gran, 180"/>
+							<m_Name text="CLA Canal, Pal_Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -1830,7 +1830,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD  Canal, Pal_JohnsonMon, 180"/>
+							<m_Name text="MOD  Canal, Pal_Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -1892,7 +1892,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon, 120"/>
+							<m_Name text="MOD Canal, Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1953,7 +1953,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon, 120001"/>
+							<m_Name text="MOD Canal, Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2014,7 +2014,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon, 180"/>
+							<m_Name text="MOD Canal, Mon, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2075,7 +2075,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon_Gran, 120"/>
+							<m_Name text="MOD Canal, Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2136,7 +2136,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon_Gran, 120001"/>
+							<m_Name text="MOD Canal, Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2197,7 +2197,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, JohnsonMon_Gran, 180"/>
+							<m_Name text="MOD Canal, Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 
@@ -2259,7 +2259,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, Pal_JohnsonMon, 120"/>
+							<m_Name text="MOD Canal, Pal_Mon, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2320,7 +2320,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, Pal_JohnsonMon, 120001"/>
+							<m_Name text="MOD Canal, Pal_Mon, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2381,7 +2381,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, Pal_JohnsonMon_Gran, 120"/>
+							<m_Name text="MOD Canal, Pal_Mon_Gran, 120"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2442,7 +2442,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, Pal_JohnsonMon_Gran, 120001"/>
+							<m_Name text="MOD Canal, Pal_Mon_Gran, 120001"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -2503,7 +2503,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="MOD Canal, Pal_JohnsonMon_Gran, 180"/>
+							<m_Name text="MOD Canal, Pal_Mon_Gran, 180"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						
@@ -2511,7 +2511,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2569,7 +2569,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2627,7 +2627,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2684,7 +2684,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2742,7 +2742,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2799,7 +2799,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2856,7 +2856,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2914,7 +2914,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="JOHNSON_MONUMENT"/>
+										<m_ElementName text="BUILDING_MONUMENT"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2984,7 +2984,7 @@
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="JOHNSON_MONUMENT"/>
+												<m_ElementName text="BUILDING_JOHNSON_MONUMENT"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -3017,7 +3017,7 @@
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="JOHNSON_MONUMENT"/>
+												<m_ElementName text="BUILDING_JOHNSON_MONUMENT"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -3050,7 +3050,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="JOHNSON_MONUMENT"/>
+												<m_ElementName text="BUILDING_JOHNSON_MONUMENT"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -3075,7 +3075,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="JOHNSON_MONUMENT"/>
+												<m_ElementName text="BUILDING_JOHNSON_MONUMENT"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>

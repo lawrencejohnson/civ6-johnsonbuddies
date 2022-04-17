@@ -168,18 +168,21 @@
 
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="4"/>
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="4"/>
 		
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="4"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="9"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="4"/>
 	</Building_GreatPersonPoints>
