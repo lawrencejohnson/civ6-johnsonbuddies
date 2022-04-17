@@ -23,7 +23,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>1</Cost>
+			<Cost>50</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 			<CanCapture>true</CanCapture>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_APOSTLE</PromotionClass>

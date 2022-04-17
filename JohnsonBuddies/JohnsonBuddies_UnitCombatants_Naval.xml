@@ -30,7 +30,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
-			<Cost>1</Cost>
+			<Cost>16</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
 			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
 			<Combat>225</Combat>

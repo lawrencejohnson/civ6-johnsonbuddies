@@ -2,9 +2,11 @@
 <GameData>
 	<Buildings_XP2>
 		<!-- For Expansion 2, Disaster prevention -->
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" PreventsFloods="true" />
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" PreventsDrought="true" />
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" BlocksCoastalFlooding="true" />
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" PreventsFloods="true" PreventsDrought="true" />
+		<!-- 
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" />
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" />
+		-->
 	</Buildings_XP2>
 
 	<BuildingModifiers>
