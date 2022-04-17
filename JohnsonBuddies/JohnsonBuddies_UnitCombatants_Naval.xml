@@ -41,6 +41,7 @@
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
 	</Units>
 

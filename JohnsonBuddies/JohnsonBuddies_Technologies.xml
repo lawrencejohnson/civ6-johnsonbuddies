@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JohnsonBuddies_Technologies -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/16/2022 6:07:39 PM -->
+<GameData>
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_POTTERY"/>
+			<Set>
+				<EmbarkUnitType>UNIT_JOHNSON_BUILDER</EmbarkUnitType>
+			</Set>
+		</Update>
+	</Technologies>
+</GameData>

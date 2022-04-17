@@ -68,6 +68,7 @@
 			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
 		</Row>
 	</Units>
 
