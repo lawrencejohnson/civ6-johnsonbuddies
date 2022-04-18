@@ -45,7 +45,7 @@
 			<Text>Scout Johnson</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_SCOUT_DESC" Language="en_US">
-			<Text>A super scout from the Johnson family.</Text>
+			<Text>A super scout equipped with Samurai gear from the Johnson family.</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_NAME" Language="en_US">
