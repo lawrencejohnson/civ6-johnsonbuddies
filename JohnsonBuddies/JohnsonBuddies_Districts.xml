@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JohnsonBuddies_Districts -->
+<!-- Author: Life -->
+<!-- DateCreated: 4/17/2022 2:21:02 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_JOHNSON_NEIGHBORHOOD" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<Districts>
+		<Row>
+			<DistrictType>DISTRICT_JOHNSON_NEIGHBORHOOD</DistrictType>
+			<Name>LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_NAME</Name>
+			<Description>LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_DESCRIPTION</Description>
+			<PlunderType>NO_PLUNDER</PlunderType>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<Cost>7</Cost>
+			<RequiresPlacement>true</RequiresPlacement>
+			<RequiresPopulation>false</RequiresPopulation>
+			<OnePerCity>FALSE</OnePerCity>
+			<Aqueduct>false</Aqueduct>
+			<NoAdjacentCity>false</NoAdjacentCity>
+			<InternalOnly>false</InternalOnly>
+			<ZOC>true</ZOC>
+			<Housing>5</Housing>
+			<CaptureRemovesBuildings>false</CaptureRemovesBuildings>
+			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
+			<CityStrengthModifier>5</CityStrengthModifier>
+			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
+			<Appeal>1</Appeal>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+		</Row>
+	</Districts>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+	</DistrictReplaces>
+
+	<District_Adjacencies>
+		<!-- <Row DistrictType="DISTRICT_JOHNSON_CITY_CENTER" YieldChangeId="District_Adjacent_Production"/> -->
+		
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<!-- <Row ID="District_Adjacent_Production" Description="LOC_DISTRICT_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/> -->
+	</Adjacency_YieldChanges>
+
+	<District_TradeRouteYields>
+		
+	</District_TradeRouteYields>
+</GameData>

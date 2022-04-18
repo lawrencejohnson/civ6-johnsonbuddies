@@ -62,6 +62,14 @@
 		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_DESC" Language="en_US">
 			<Text>A super sea dog from the Johnson family.</Text>
 		</Row>
+		
+		<!-- Districts -->
+		<Row Tag="LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_NAME" Language="en_US">
+			<Text>Johnson Neighborhood</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_DESCRIPTION" Language="en_US">
+			<Text>Johnson family neighborhoods work like regular neighborhoods, but they also prevent floods and drought.</Text>
+		</Row>
 
 		<!-- Ancient Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">

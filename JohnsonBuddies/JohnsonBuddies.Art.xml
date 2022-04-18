@@ -18,40 +18,74 @@
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
-			<consumerName text="Buildings"/>
+			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
 				<Element text="Buildings.artdef" />
+				<Element text="Districts.artdef"/>
+				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
-				<Element text="CityBuildings"/>
-				<Element text="StrategicView"/>
+				<Element text="StrategicView_Sprite"/>
+				<Element text="StrategicView_DirectedAsset"/>
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
+			<consumerName text="Landmarks"/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef" />
+				<Element text="Buildings.artdef"/>
+				<Element text="Districts.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies>
+				<Element text="TileBase"/>
+				<Element text="CityBuildings"/>
+				<Element text="Light"/>
+				<Element text="RouteDecalMaterial"/>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<Element>
+			<consumerName text="Audio"/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef" />
+				<Element text="Buildings.artdef"/>
+				<Element text="Districts.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies />
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<Element>
+			<consumerName text="Features"/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef" />
+				<Element text="Buildings.artdef"/>
+				<Element text="Districts.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies/>
+			<loadsLibraries>false</loadsLibraries>
+		</Element>
+		<Element>
+			<consumerName text="Resources"/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef" />
+				<Element text="Buildings.artdef"/>
+				<Element text="Districts.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies/>
+			<loadsLibraries>false</loadsLibraries>
+		</Element>
+		<!--
+		<Element>
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
-				<!-- <Element text="Clutter.artdef"/> -->
+				<Element text="Clutter.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Landmark"/>
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
-			<Element>
-				<consumerName text="Landmarks"/>
-				<relativeArtDefPaths>
-					<!--
-					<Element text="Landmarks.artdef" />
-					-->
-				</relativeArtDefPaths>
-				<libraryDependencies>
-					<Element text="CityBuildings"/>
-					<Element text="TileBase"/>
-					<Element text="RouteDecalMaterial"/>
-				</libraryDependencies>
-				<loadsLibraries>true</loadsLibraries>
-			</Element>
 		<Element>
 			<consumerName text="Farms"/>
 			<relativeArtDefPaths>
@@ -255,13 +289,6 @@
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
-			<consumerName text="Features"/>
-			<relativeArtDefPaths>
-			</relativeArtDefPaths>
-			<libraryDependencies/>
-			<loadsLibraries>false</loadsLibraries>
-		</Element>
-		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
@@ -431,6 +458,7 @@
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
+		-->
 	</artConsumers>
 	<gameLibraries>
 		<Element>
