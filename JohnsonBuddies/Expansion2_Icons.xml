@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- For simplicity sake, we're going to reuse existing icons. -->
+	<IconDefinitions>
+
+		<Row Name="ICON_UNIT_JOHNSON_SPEC_OPS"             Atlas="ICON_ATLAS_EXPANSION_1_UNITS" Index="7"/>
+		<Row Name="ICON_UNIT_JOHNSON_SPEC_OPS_PORTRAIT"             Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="7"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_JOHNSON_SPEC_OPS_PORTRAIT"             Atlas="ICON_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" Index="7"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_JOHNSON_SPEC_OPS_PORTRAIT"             Atlas="ICON_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="7"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_JOHNSON_SPEC_OPS_PORTRAIT"             Atlas="ICON_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" Index="7"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_JOHNSON_SPEC_OPS_PORTRAIT"             Atlas="ICON_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" Index="7"/>
+
+	</IconDefinitions>
+</GameData>

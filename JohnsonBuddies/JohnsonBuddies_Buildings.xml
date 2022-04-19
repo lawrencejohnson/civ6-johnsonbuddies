@@ -128,6 +128,11 @@
 		-->
 	</BuildingPrereqs>
 
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ART" MutuallyExclusiveBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ARTIFACT" MutuallyExclusiveBuilding="BUILDING_JOHNSON_MUSEUM_ART"/>
+	</MutuallyExclusiveBuildings>
+
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MONUMENT" ReplacesBuildingType="BUILDING_MONUMENT"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>

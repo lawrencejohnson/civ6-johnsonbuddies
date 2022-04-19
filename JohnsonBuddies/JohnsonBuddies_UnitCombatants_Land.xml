@@ -2,6 +2,8 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_JOHNSON_SCOUT" Kind="KIND_UNIT" />
+		<Row Type="UNIT_JOHNSON_RANGER" Kind="KIND_UNIT" />
+		
 		<Row Type="UNIT_JOHNSON_ARCHER" Kind="KIND_UNIT"/>
 	</Types>
 
@@ -10,6 +12,11 @@
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITTYPE_LAND_COMBAT"/>
 
 		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITAI_EXPLORE"/>
@@ -24,6 +31,13 @@
 		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_OBSERVATION"/>
 
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_MOBILE_RANGED"/>
+
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_RANGED"/>
@@ -33,6 +47,7 @@
 	</TypeTags>
 
 	<Units>
+		<!-- Recon -->
 		<Row>
 			<UnitType>UNIT_JOHNSON_SCOUT</UnitType>
 			<Name>LOC_UNIT_JOHNSON_SCOUT_NAME</Name>
@@ -51,6 +66,28 @@
 			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
 		</Row>
 
+		<Row>
+			<UnitType>UNIT_JOHNSON_RANGER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_RANGER_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_RANGER_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>12</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
+			<Combat>235</Combat>
+			<RangedCombat>235</RangedCombat>
+			<Range>5</Range>
+			<ZoneOfControl>true</ZoneOfControl>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+		</Row>
+		
+		<!-- Ranged -->
 		<Row>
 			<UnitType>UNIT_JOHNSON_ARCHER</UnitType>
 			<Name>LOC_UNIT_JOHNSON_ARCHER_NAME</Name>
@@ -74,6 +111,13 @@
 
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_RANGER" ReplacesUnitType="UNIT_RANGER"/>
+		
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
 	</UnitReplaces>
+
+	<UnitUpgrades>
+		<!--Recon-->
+		<Row Unit="UNIT_JOHNSON_SCOUT" UpgradeUnit="UNIT_JOHNSON_RANGER"/>
+	</UnitUpgrades>
 </GameData>

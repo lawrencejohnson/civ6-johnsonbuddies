@@ -499,8 +499,7 @@
 				<m_Name text="BUILDING_JOHNSON_MUSEUM_ART"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
-
-			<!-- DISTRICTS -->
+			
 			<Element>
 				<m_Fields>
 					<m_Values>
