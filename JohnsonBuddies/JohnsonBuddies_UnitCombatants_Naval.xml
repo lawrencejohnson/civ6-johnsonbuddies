@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_JOHNSON_SEADOG" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Kind="KIND_UNIT"/>
 	</Types>
 
 	<UnitAiInfos>
@@ -9,6 +10,11 @@
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_NAVAL"/>
+
+		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 
 	<TypeTags>
@@ -19,6 +25,14 @@
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_CAPTURE_SHIPS"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_OBSERVATION"/>
+
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_CAPTURE_SHIPS"/>
+		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
 	<Units>
@@ -37,15 +51,44 @@
 			<RangedCombat>225</RangedCombat>
 			<Range>6</Range>
 			<AntiAirCombat>225</AntiAirCombat>
+			<CanTargetAir>true</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_JOHNSON_MISSILE_CRUISER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_MISSILE_CRUISER_NAME</Name>
+			<Description>LOC_JOHNSON_MISSILE_CRUISER_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_SEA</Domain>
+			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
+			<Cost>170</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
+			<Combat>235</Combat>
+			<RangedCombat>235</RangedCombat>
+			<Range>6</Range>
+			<AntiAirCombat>235</AntiAirCombat>
+			<CanTargetAir>true</CanTargetAir>
+			<ZoneOfControl>true</ZoneOfControl>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+		</Row>
 	</Units>
 
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SEADOG" ReplacesUnitType="UNIT_GALLEY"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_MISSILE_CRUISER" ReplacesUnitType="UNIT_MISSILE_CRUISER"/>
 	</UnitReplaces>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_JOHNSON_SEADOG" UpgradeUnit="UNIT_JOHNSON_MISSILE_CRUISER"/>
+	</UnitUpgrades>
 </GameData>

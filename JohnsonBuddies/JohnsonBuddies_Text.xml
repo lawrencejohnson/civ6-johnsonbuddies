@@ -75,6 +75,12 @@
 		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_DESC" Language="en_US">
 			<Text>A super sea dog from the Johnson family.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_MISSILE_CRUISER_NAME" Language="en_US">
+			<Text>Cruiser Johnson</Text>
+		</Row>
+		<Row Tag="LOC_JOHNSON_MISSILE_CRUISER_DESC" Language="en_US">
+			<Text>A super missile cruiser from the Johnson family.</Text>
+		</Row>
 		
 		<!-- Districts -->
 		<Row Tag="LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_NAME" Language="en_US">

@@ -2,42 +2,22 @@
 <GameData>
 	<!-- General dumping ground before game data gets moved into a categorized Xml file -->
 	<Types>
-		<Row Type="UNIT_JOHNSON_SPY" Kind="KIND_UNIT"/>
+		
 	</Types>
 
 	<UnitAiInfos>
-		<Row UnitType="UNIT_JOHNSON_SPY" AiType="UNITTYPE_CIVILIAN"/>
+		
 	</UnitAiInfos>
 
 	<TypeTags>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_SPY"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_HELICOPTER"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_OBSERVATION"/>
+		
 	</TypeTags>
 
 	<Units>
-		<Row>
-			<UnitType>UNIT_JOHNSON_SPY</UnitType>
-			<Name>LOC_UNIT_JOHNSON_SPY_NAME</Name>
-			<Description>LOC_UNIT_JOHNSON_SPY_DESC</Description>
-			<BaseSightRange>6</BaseSightRange>
-			<BaseMoves>9</BaseMoves>
-			<Domain>DOMAIN_LAND</Domain>
-			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>1</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-			<IgnoreMoves>true</IgnoreMoves>
-			<CanCapture>true</CanCapture>
-			<InitialLevel>4</InitialLevel>
-			<NumRandomChoices>3</NumRandomChoices>
-			<Spy>true</Spy>
-			<TeamVisibility>true</TeamVisibility>
-			<PromotionClass>PROMOTION_CLASS_SPY</PromotionClass>
-			<ZoneOfControl>false</ZoneOfControl>
-			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<PseudoYieldType>PSEUDOYIELD_UNIT_SPY</PseudoYieldType>
-		</Row>
+		
 	</Units>
+
+	<UnitReplaces>
+		
+	</UnitReplaces>
 </GameData>

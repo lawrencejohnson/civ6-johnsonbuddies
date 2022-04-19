@@ -114,6 +114,9 @@
 	</Buildings>
 
 	<BuildingPrereqs>
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ART" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		
 		<!-- 
 		<Row Building="BUILDING_FACTORY" PrereqBuilding="BUILDING_JOHNSON_WORKSHOP"/>
 		<Row Building="BUILDING_ELECTRONICS_FACTORY" PrereqBuilding="BUILDING_JOHNSON_WORKSHOP"/>
@@ -177,20 +180,18 @@
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
 		
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="3"/>
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
-
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>

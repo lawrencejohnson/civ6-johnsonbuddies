@@ -153,7 +153,6 @@
 	</UnitReplaces>
 
 	<UnitUpgrades>
-		<!--Recon-->
 		<Row Unit="UNIT_JOHNSON_SCOUT" UpgradeUnit="UNIT_JOHNSON_RANGER"/>
 		<Row Unit="UNIT_JOHNSON_ARCHER" UpgradeUnit="UNIT_JOHNSON_ROCKET_ARTILLERY"/>
 	</UnitUpgrades>
