@@ -4,46 +4,20 @@
 <!-- DateCreated: 4/18/2022 5:34:07 PM -->
 <GameData>
 	<Types>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Kind="KIND_UNIT"/>
+
 	</Types>
 
 	<TypeTags>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_RECON"/>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_SNIPER"/>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_HELICOPTER"/>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_OBSERVATION"/>
-		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_PARADROP"/>
+
 	</TypeTags>
 
 	<Units>
-		<Row>
-			<UnitType>UNIT_JOHNSON_SPEC_OPS</UnitType>
-			<Name>LOC_UNIT_JOHNSON_SPEC_OPS_NAME</Name>
-			<Description>LOC_UNIT_JOHNSON_SPEC_OPS_DESC</Description>
-			<BaseSightRange>6</BaseSightRange>
-			<BaseMoves>9</BaseMoves>
-			<Domain>DOMAIN_LAND</Domain>
-			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
-			<Cost>130</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
-			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
-			<Combat>245</Combat>
-			<RangedCombat>245</RangedCombat>
-			<Range>5</Range>
-			<ZoneOfControl>true</ZoneOfControl>
-			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
-			<PrereqTech>TECH_PLASTICS</PrereqTech>
-		</Row>
+
 	</Units>
 
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_JOHNSON_SPEC_OPS" ReplacesUnitType="UNIT_SPEC_OPS"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>
-		<Row Unit="UNIT_JOHNSON_RANGER" UpgradeUnit="UNIT_JOHNSON_SPEC_OPS"/>
 	</UnitUpgrades>
 </GameData>

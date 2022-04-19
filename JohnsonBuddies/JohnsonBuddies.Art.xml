@@ -77,6 +77,14 @@
 		</Element>
 		<!--
 		<Element>
+			<consumerName text="Cultures"/>
+			<relativeArtDefPaths>
+				<Element text="Units.artdef" />
+			</relativeArtDefPaths>
+			<libraryDependencies/>
+			<loadsLibraries>false</loadsLibraries>
+		</Element>
+		<Element>
 			<consumerName text="Clutter"/>
 			<relativeArtDefPaths>
 				<Element text="Clutter.artdef"/>
@@ -295,12 +303,7 @@
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
-		<Element>
-			<consumerName text="Cultures"/>
-			<relativeArtDefPaths />
-			<libraryDependencies/>
-			<loadsLibraries>false</loadsLibraries>
-		</Element>
+		
 		<Element>
 			<consumerName text="Resources"/>
 			<relativeArtDefPaths>

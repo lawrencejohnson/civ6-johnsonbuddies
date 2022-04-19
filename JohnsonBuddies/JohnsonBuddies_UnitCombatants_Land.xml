@@ -5,6 +5,7 @@
 		<Row Type="UNIT_JOHNSON_RANGER" Kind="KIND_UNIT" />
 		
 		<Row Type="UNIT_JOHNSON_ARCHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Kind="KIND_UNIT"/>
 	</Types>
 
 	<UnitAiInfos>
@@ -22,6 +23,11 @@
 		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_JOHNSON_ARCHER" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 
 	<TypeTags>
@@ -44,6 +50,13 @@
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_OBSERVATION"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_MOBILE_RANGED"/>
+
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_MOBILE_RANGED"/>
 	</TypeTags>
 
 	<Units>
@@ -107,6 +120,28 @@
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_JOHNSON_ROCKET_ARTILLERY</UnitType>
+			<Name>LOC_UNIT_JOHNSON_ROCKET_ARTILLERY_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_ROCKET_ARTILLERY_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>160</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<Combat>235</Combat>
+			<RangedCombat>235</RangedCombat>
+			<AntiAirCombat>235</AntiAirCombat>
+			<Range>5</Range>
+			<ZoneOfControl>true</ZoneOfControl>
+			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<CanTargetAir>true</CanTargetAir>
+		</Row>
 	</Units>
 
 	<UnitReplaces>
@@ -114,10 +149,12 @@
 		<Row CivUniqueUnitType="UNIT_JOHNSON_RANGER" ReplacesUnitType="UNIT_RANGER"/>
 		
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>
 		<!--Recon-->
 		<Row Unit="UNIT_JOHNSON_SCOUT" UpgradeUnit="UNIT_JOHNSON_RANGER"/>
+		<Row Unit="UNIT_JOHNSON_ARCHER" UpgradeUnit="UNIT_JOHNSON_ROCKET_ARTILLERY"/>
 	</UnitUpgrades>
 </GameData>
