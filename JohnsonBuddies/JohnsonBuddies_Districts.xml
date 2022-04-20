@@ -48,4 +48,9 @@
 	<District_TradeRouteYields>
 		
 	</District_TradeRouteYields>
+	
+	<AppealHousingChanges>
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="4" AppealChange="2" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING"/>
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="2" AppealChange="1" Description="LOC_TOOLTIP_APPEAL_CHARMING"/>
+	</AppealHousingChanges>
 </GameData>
