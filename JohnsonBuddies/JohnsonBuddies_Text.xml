@@ -53,6 +53,12 @@
 		<Row Tag="LOC_UNIT_JOHNSON_RANGER_DESC" Language="en_US">
 			<Text>A super ranger from the Johnson family.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SPEC_OPS_NAME" Language="en_US">
+			<Text>Spec Ops Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SPEC_OPS_DESC" Language="en_US">
+			<Text>A super spec ops agent from the Johnson family.</Text>
+		</Row>
 
 		<!-- Land -->
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_NAME" Language="en_US">
