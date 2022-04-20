@@ -129,7 +129,7 @@
 			<Text>Johnson Power Plant</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOHNSON_POWER_DESC" Language="en_US">
-			<Text>Provides the city +6 [ICON_Power] Power from the power of Johnson.</Text>
+			<Text>Provides the city +10 [ICON_Power] Power from the power of Johnson.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JOHNSON_BROADCAST_CENTER_NAME" Language="en_US">
 			<Text>Johnson Broadcast Center</Text>

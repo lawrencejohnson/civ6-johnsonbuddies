@@ -1169,7 +1169,7 @@
 												<m_ParamName text="Set_1"/>
 											</Element>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
+												<m_ElementName text="BUILDING_JOHNSON_BROADCAST_CENTER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1182,7 +1182,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J, BROADCAST CENTER"/>
+							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1241,7 +1241,7 @@
 												<m_ParamName text="Set_1"/>
 											</Element>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
+												<m_ElementName text="BUILDING_JOHNSON_BROADCAST_CENTER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1254,7 +1254,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J, BROADCAST CENTER"/>
+							<m_Name text="AMPHITHEATER, MUSEUM_ART_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>

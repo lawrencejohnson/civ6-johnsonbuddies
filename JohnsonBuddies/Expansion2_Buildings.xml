@@ -15,7 +15,7 @@
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" ModifierId="MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY"/>
 
 		<!-- Pollution free electricity -->
-		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="HYDROELECTRIC_DAM_FREE_POWER"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="HYDROELECTRIC_DAM_JOHNSON_FREE_POWER"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" ModifierId="MERCHANT_RENEWABLE_ENERGY_HYDROELECTRIC_DAM_FREE_POWER"/>
 	</BuildingModifiers>
 
@@ -28,6 +28,11 @@
 			<ModifierId>MONUMENT_JOHNSON_CULTURE_AT_FULL_LOYALTY</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>MONUMENT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>HYDROELECTRIC_DAM_JOHNSON_FREE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
 		</Row>
 	</Modifiers>
 
@@ -42,5 +47,17 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>HYDROELECTRIC_DAM_JOHNSON_FREE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYDROELECTRIC_DAM_JOHNSON_FREE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WATER</Value>
+		</Row>
+		
 	</ModifierArguments>
 </GameData>
