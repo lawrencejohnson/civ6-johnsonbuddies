@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="TRAIT_CIVILIZATION_JOHNSON_BUDDIES" Kind="KIND_TRAIT"/>
+		<!-- All Johnson Buddies Military Units (if you don't like worrying about military) -->
+		<Row Type="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY" Kind="KIND_TRAIT"/>
+		
+		<!-- All Johnson Buddies Civilians (settlers, builders, spies, apostles, very OP for city management) -->
+		<Row Type="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS" Kind="KIND_TRAIT"/>
+		
+		<!-- Johnson Buddies Monument (nice starter building, adds bonus loyalty great for aggressive expansion) -->
+		<Row Type="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT" Kind="KIND_TRAIT"/>
+
+		<!-- All Other Johnson Buddies Buildings (includes Archaeologist, crazy OP, in longer big games this can make the game incredibly boring) -->
+		<Row Type="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME"/>
 	</Traits>
 	
 	<CivilizationTraits>
@@ -31,6 +44,11 @@
 		-->
 		
 		<!-- Add or Remove Civilizations to receive Johnson Buddies -->
-		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT"/>
+		<!--
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS"/>
+		-->
 	</CivilizationTraits>
 </GameData>

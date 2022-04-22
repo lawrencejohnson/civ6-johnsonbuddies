@@ -1,6 +1,4 @@
 # To Do Items
 
-* unit replace spy
-* art/arch museum rendering
-* 
+* Multiple traits to help pick preferences
 

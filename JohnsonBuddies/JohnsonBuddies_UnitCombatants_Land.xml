@@ -70,7 +70,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>7</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>225</Combat>
 			<ZoneOfControl>true</ZoneOfControl>
@@ -88,7 +88,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>12</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
@@ -110,7 +110,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>15</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
 			<Range>5</Range>
@@ -130,7 +130,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>160</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
 			<AntiAirCombat>235</AntiAirCombat>

@@ -48,7 +48,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>20</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<FoundCity>true</FoundCity>
 			<PopulationCost>0</PopulationCost>
 			<PrereqPopulation>0</PrereqPopulation>
@@ -67,7 +67,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>10</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
@@ -84,7 +84,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>100</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_BUILDINGS</TraitType>
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
@@ -103,7 +103,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>1</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<IgnoreMoves>true</IgnoreMoves>
 			<CanCapture>true</CanCapture>
 			<InitialLevel>4</InitialLevel>

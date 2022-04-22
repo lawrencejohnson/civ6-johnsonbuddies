@@ -24,7 +24,7 @@
 			<CitizenSlots>2</CitizenSlots>
 			<Entertainment>5</Entertainment>
 			<RegionalRange>6</RegionalRange>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT</TraitType>
 		</Row>
 
 		<Row>
@@ -38,7 +38,7 @@
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
 		<Row>
@@ -52,7 +52,7 @@
 			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
 		<Row>
@@ -66,7 +66,7 @@
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
 		<Row>
@@ -80,7 +80,7 @@
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
 		<Row>
@@ -95,7 +95,7 @@
 			<Housing>5</Housing>
 			<CitizenSlots>1</CitizenSlots>
 			<RegionalRange>6</RegionalRange>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
 		<Row>
@@ -109,7 +109,7 @@
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 	</Buildings>
 

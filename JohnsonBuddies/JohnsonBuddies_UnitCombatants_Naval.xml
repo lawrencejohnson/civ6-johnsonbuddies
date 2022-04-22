@@ -45,7 +45,7 @@
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>16</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
@@ -68,7 +68,7 @@
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>170</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>

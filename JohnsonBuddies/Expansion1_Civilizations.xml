@@ -20,9 +20,17 @@
 			Use the delete syntax to remove previous definitions before adding them after.
 		-->
 
-		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS"/>
 
 		<!-- Add or Remove Civilizations to receive Johnson Buddies -->
-		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT"/>
+		<!--
+		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS"/>
+		-->
 	</CivilizationTraits>
 </GameData>

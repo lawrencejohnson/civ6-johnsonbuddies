@@ -26,7 +26,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>130</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>245</Combat>
 			<RangedCombat>245</RangedCombat>
