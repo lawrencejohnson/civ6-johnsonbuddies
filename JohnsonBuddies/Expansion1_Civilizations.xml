@@ -18,18 +18,16 @@
 		<!--
 			A smart way to use this file so it works with friends, is to define what civs you want to provide in this file, expansion 1, and base (JohnsonBuddies_Civilizations).
 			Use the delete syntax to remove previous definitions before adding them after.
-		-->
-
 		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY"/>
 		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS"/>
 		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT"/>
 		<Delete CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS"/>
+		-->
 
-		<!-- Add or Remove Civilizations to receive Johnson Buddies -->
+		<!-- Add or Remove Civilizations to receive Johnson Buddies 
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY"/>
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS"/>
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT"/>
-		<!--
 		<Row CivilizationType="CIVILIZATION_JAPAN" TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS"/>
 		-->
 	</CivilizationTraits>

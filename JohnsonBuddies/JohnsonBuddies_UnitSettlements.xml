@@ -84,7 +84,7 @@
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
 			<Cost>100</Cost>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_BUILDINGS</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>

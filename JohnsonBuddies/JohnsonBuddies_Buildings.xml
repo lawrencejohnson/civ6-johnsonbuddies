@@ -153,8 +153,6 @@
 		<!-- Start Game: Monument gives great base stats to any city, except production cuz too OP for early game (run out of stuff to build) -->
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FOOD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="2"/>
 
 		<!-- Ancient Era: Workshop boosts production and gold -->
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="9"/>
@@ -173,7 +171,7 @@
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_GOLD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 		
-		<!-- Modern Era: Broadcast Centers for music and culture -->
+		<!-- Atomic Era: Broadcast Centers for music and culture -->
 		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="5"/>
 	</Building_YieldChanges>
 

@@ -5,7 +5,7 @@
     <Name>Johnson Buddies</Name>
     <Guid>e884fe28-447a-4837-a43c-331fa4ab9d5e</Guid>
     <ProjectGuid>69ff188e-6229-4008-bf04-40698a79e28a</ProjectGuid>
-    <ModVersion>2</ModVersion>
+    <ModVersion>3</ModVersion>
     <Teaser>Some extra units for Johnson-family style fun.</Teaser>
     <Description>Adds some extra units available to specific conditions for a little bit of leverage.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>

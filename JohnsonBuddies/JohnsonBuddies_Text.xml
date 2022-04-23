@@ -145,16 +145,16 @@
 		</Row>
 		
 		<!-- Traits -->
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY" Language="en_US">
+		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY_NAME" Language="en_US">
 			<Text>Johnson Military</Text>
 		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS" Language="en_US">
+		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS_NAME" Language="en_US">
 			<Text>Johnson Civilians</Text>
 		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT" Language="en_US">
+		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT_NAME" Language="en_US">
 			<Text>Johnson Monument</Text>
 		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS" Language="en_US">
+		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
 			<Text>Johnson Buildings</Text>
 		</Row>
 	</LocalizedText>
