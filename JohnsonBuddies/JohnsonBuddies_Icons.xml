@@ -151,6 +151,9 @@
 
 		<Row Name="ICON_BUILDING_JOHNSON_BROADCAST_CENTER"     Atlas="ICON_ATLAS_BUILDINGS" Index="35"/>
 		<Row Name="ICON_BUILDING_JOHNSON_BROADCAST_CENTER_FOW"    Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="35"/>
+		
+		<!-- Projects -->
+		<Row Name="ICON_PROJECT_JOHNSON_IDLE_PRODUCTION"                Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
 	</IconDefinitions>
 	
 	<IconAliases>

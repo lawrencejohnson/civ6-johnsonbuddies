@@ -52,5 +52,8 @@
 	<AppealHousingChanges>
 		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="4" AppealChange="2" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING"/>
 		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="2" AppealChange="1" Description="LOC_TOOLTIP_APPEAL_CHARMING"/>
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="-1" AppealChange="0" Description="LOC_TOOLTIP_APPEAL_AVERAGE"/>
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="-3" AppealChange="-1" Description="LOC_TOOLTIP_APPEAL_UNINVITING"/>
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" MinimumValue="-100" AppealChange="-2" Description="LOC_TOOLTIP_APPEAL_DISGUSTING"/>
 	</AppealHousingChanges>
 </GameData>

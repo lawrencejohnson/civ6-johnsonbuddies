@@ -43,6 +43,7 @@
 		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_OBSERVATION"/>
 		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_ANTI_AIR"/>
 
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_REVEAL_STEALTH"/>
@@ -50,6 +51,7 @@
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_OBSERVATION"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_JOHNSON_ARCHER" Tag="CLASS_ANTI_AIR"/>
 
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_REVEAL_STEALTH"/>
@@ -57,6 +59,7 @@
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_OBSERVATION"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_ANTI_AIR"/>
 	</TypeTags>
 
 	<Units>
@@ -77,6 +80,7 @@
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
+			<InitialLevel>3</InitialLevel>
 		</Row>
 
 		<Row>
@@ -92,12 +96,15 @@
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
+			<AntiAirCombat>235</AntiAirCombat>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 		
 		<!-- Ranged -->
@@ -113,12 +120,15 @@
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
+			<AntiAirCombat>225</AntiAirCombat>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 
 		<Row>
@@ -134,13 +144,14 @@
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
 			<AntiAirCombat>235</AntiAirCombat>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
-			<CanTargetAir>true</CanTargetAir>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 	</Units>
 

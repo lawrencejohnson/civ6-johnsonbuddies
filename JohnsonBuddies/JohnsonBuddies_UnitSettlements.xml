@@ -25,6 +25,8 @@
 
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_BUILDER"/>
+		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_OBSERVATION"/>
 
 		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_ARCHAEOLOGIST"/>
@@ -33,9 +35,6 @@
 		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Tag="CLASS_OBSERVATION"/>
 
 		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_SPY"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_HELICOPTER"/>
-		<Row Type="UNIT_JOHNSON_SPY" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
 	<Units>
@@ -107,10 +106,10 @@
 			<IgnoreMoves>true</IgnoreMoves>
 			<CanCapture>true</CanCapture>
 			<InitialLevel>4</InitialLevel>
-			<NumRandomChoices>3</NumRandomChoices>
+			<!-- <NumRandomChoices>3</NumRandomChoices> -->
 			<Spy>true</Spy>
 			<TeamVisibility>true</TeamVisibility>
-			<PromotionClass>PROMOTION_CLASS_SPY</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_SPY</PromotionClass>
 			<ZoneOfControl>false</ZoneOfControl>
 			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>

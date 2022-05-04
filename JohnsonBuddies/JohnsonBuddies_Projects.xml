@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="PROJECT_JOHNSON_IDLE_PRODUCTION" Kind="KIND_PROJECT"/>
+	</Types>
+
+	<Projects>
+		<!--
+		<Row 
+			ProjectType="PROJECT_ENHANCE_DISTRICT_HARBOR" 
+			Name="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_NAME" 
+			ShortName="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_SHORT_NAME" 
+			Description="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_DESCRIPTION" 
+			PrereqDistrict="DISTRICT_HARBOR" 
+			Cost="25" 
+			AdvisorType="ADVISOR_GENERIC" 
+			CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" 
+			CostProgressionParam1="1500"/>
+		-->
+
+		<Row>
+			<ProjectType>PROJECT_JOHNSON_IDLE_PRODUCTION</ProjectType>
+			<Name>LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME</Name>
+			<ShortName>LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_SHORT_NAME</ShortName>
+			<Description>LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME_DESCRIPTION</Description>
+			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
+			<Cost>2000</Cost>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<CostProgressionModel>COST_PROGRESSION_GAME_PROGRESS</CostProgressionModel>
+			<CostProgressionParam1>2000</CostProgressionParam1>
+
+			<RequiredBuilding>BUILDING_JOHNSON_MONUMENT</RequiredBuilding>
+		</Row>
+	</Projects>
+
+	<ProjectPrereqs>
+		
+	</ProjectPrereqs>
+
+	<Project_YieldConversions>
+		
+	</Project_YieldConversions>
+</GameData>

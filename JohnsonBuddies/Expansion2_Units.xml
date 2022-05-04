@@ -14,6 +14,7 @@
 		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_SPEC_OPS" Tag="CLASS_ANTI_AIR"/>
 	</TypeTags>
 
 	<Units>
@@ -30,7 +31,9 @@
 			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
 			<Combat>245</Combat>
 			<RangedCombat>245</RangedCombat>
+			<AntiAirCombat>245</AntiAirCombat>
 			<Range>5</Range>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>

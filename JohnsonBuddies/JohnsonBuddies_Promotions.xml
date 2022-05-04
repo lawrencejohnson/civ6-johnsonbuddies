@@ -15,13 +15,27 @@
 		<Row Type="PROMOTION_JOHNSON_DEBATER" Kind="KIND_PROMOTION"/>
 		<Row Type="PROMOTION_JOHNSON_CHAPLAIN" Kind="KIND_PROMOTION"/>
 		-->
+
+		<Row Type="PROMOTION_CLASS_JOHNSON_SPY" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_SEDUCTION" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_QUARTERMASTER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_TECHNOLOGIST" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_CAT_BURGLAR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_DEMOLITIONS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_CON_ARTIST" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_DISGUISE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_LINGUIST" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_JOHNSON_SPY_ACE_DRIVER" Kind="KIND_PROMOTION"/>
 		
-		<Row Type="PROMOTION_JOHNSON_MARTYR" Kind="KIND_PROMOTION"/>
 		<Row Type="PROMOTION_CLASS_JOHNSON_APOSTLE" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_JOHNSON_MARTYR" Kind="KIND_PROMOTION"/>
 	</Types>
 
 	<UnitPromotionClasses>
 		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_APOSTLE" Name="LOC_PROMOTION_CLASS_APOSTLE_NAME"/>
+		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_SPY" Name="LOC_PROMOTION_CLASS_SPY_NAME"/>
 	</UnitPromotionClasses>
 
 	<UnitPromotions>
@@ -35,11 +49,164 @@
 		<Row UnitPromotionType="PROMOTION_JOHNSON_DEBATER" Name="LOC_PROMOTION_DEBATER_NAME" Description="LOC_PROMOTION_DEBATER_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
 		<Row UnitPromotionType="PROMOTION_JOHNSON_CHAPLAIN" Name="LOC_PROMOTION_CHAPLAIN_NAME" Description="LOC_PROMOTION_CHAPLAIN_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
 		-->
+		<Row UnitPromotionType="PROMOTION_JOHNSON_MARTYR" Name="LOC_PROMOTION_MARTYR_NAME" Description="LOC_PROMOTION_MARTYR_DESCRIPTION" 
+			Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+
+		<!-- Spy -->
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_SEDUCTION" Name="LOC_PROMOTION_SPY_SEDUCTION_NAME" Description="LOC_PROMOTION_SPY_SEDUCTION_DESCRIPTION" 
+			Specialization="" 
+			Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_TECHNOLOGIST" Name="LOC_PROMOTION_SPY_TECHNOLOGIST_NAME" Description="LOC_PROMOTION_SPY_TECHNOLOGIST_DESCRIPTION"
+			Specialization=""
+			Level="1" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_ACE_DRIVER" Name="LOC_PROMOTION_SPY_ACE_DRIVER_NAME" Description="LOC_PROMOTION_SPY_ACE_DRIVER_DESCRIPTION"
+			Specialization=""
+			Level="1" Column="5" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
 		
-		<Row UnitPromotionType="PROMOTION_JOHNSON_MARTYR" Name="LOC_PROMOTION_MARTYR_NAME" Description="LOC_PROMOTION_MARTYR_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_QUARTERMASTER" Name="LOC_PROMOTION_SPY_QUARTERMASTER_NAME" Description="LOC_PROMOTION_SPY_QUARTERMASTER_DESCRIPTION"
+			Specialization=""
+			Level="2" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_CAT_BURGLAR" Name="LOC_PROMOTION_SPY_CAT_BURGLAR_NAME" Description="LOC_PROMOTION_SPY_CAT_BURGLAR_DESCRIPTION"
+			Specialization="" 
+			Level="2" Column="4" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_DEMOLITIONS" Name="LOC_PROMOTION_SPY_DEMOLITIONS_NAME" Description="LOC_PROMOTION_SPY_DEMOLITIONS_DESCRIPTION" 
+			Specialization="" 
+			Level="3" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_CON_ARTIST" Name="LOC_PROMOTION_SPY_CON_ARTIST_NAME" Description="LOC_PROMOTION_SPY_CON_ARTIST_DESCRIPTION" 
+			Specialization="" 
+			Level="3" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER" Name="LOC_PROMOTION_SPY_GUERILLA_LEADER_NAME" Description="LOC_PROMOTION_SPY_GUERILLA_LEADER_DESCRIPTION" 
+			Specialization="" 
+			Level="3" Column="5" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST" Name="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_NAME" Description="LOC_PROMOTION_SPY_ROCKET_SCIENTIST_DESCRIPTION" 
+			Specialization="" 
+			Level="4" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_DISGUISE" Name="LOC_PROMOTION_SPY_DISGUISE_NAME" Description="LOC_PROMOTION_SPY_DISGUISE_DESCRIPTION"
+			Specialization=""
+			Level="4" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_LINGUIST" Name="LOC_PROMOTION_SPY_LINGUIST_NAME" Description="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION"
+			Specialization=""
+			Level="4" Column="5" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
 	</UnitPromotions>
 
+	<UnitPromotionPrereqs>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_SEDUCTION"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_TECHNOLOGIST"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_ACE_DRIVER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_SEDUCTION"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_TECHNOLOGIST"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_ACE_DRIVER"/>
+
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CAT_BURGLAR"/>
+
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_DISGUISE" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_DISGUISE" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_DISGUISE" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER"/>
+	</UnitPromotionPrereqs>
+
 	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_TECHNOLOGIST</UnitPromotionType>
+			<ModifierId>SPY_TECHNOLOGIST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_CAT_BURGLAR</UnitPromotionType>
+			<ModifierId>SPY_CAT_BURGLAR</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_DEMOLITIONS</UnitPromotionType>
+			<ModifierId>SPY_DEMOLITIONS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_CON_ARTIST</UnitPromotionType>
+			<ModifierId>SPY_CON_ARTIST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_GUERILLA_LEADER</UnitPromotionType>
+			<ModifierId>SPY_GUERILLA_LEADER</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_ROCKET_SCIENTIST</UnitPromotionType>
+			<ModifierId>SPY_ROCKET_SCIENTIST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_DISGUISE</UnitPromotionType>
+			<ModifierId>SPY_DISGUISE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_ROCKETRYTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_SOURCESTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_HEISTTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_PARTISANSTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_SABOTAGETIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_SIPHONTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_LINGUIST</UnitPromotionType>
+			<ModifierId>SPY_LINGUIST_STEALTECHTIME</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_ROCKETRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_HEIST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_PARTISAN</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_SABOTAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_SIPHON</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_SEDUCTION</UnitPromotionType>
+			<ModifierId>SPY_SEDUCTION_STEALTECH</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_QUARTERMASTER</UnitPromotionType>
+			<ModifierId>SPY_JOHNSON_QUARTERMASTER</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SPY_ACE_DRIVER</UnitPromotionType>
+			<ModifierId>SPY_ACE_DRIVER</ModifierId>
+		</Row>
+		
 		<!-- 
 		<Row>
 			<UnitPromotionType>PROMOTION_JOHNSON_ORATOR</UnitPromotionType>
@@ -80,4 +247,17 @@
 		</Row>
 	</UnitPromotionModifiers>
 
+	<Modifiers>
+		<Row>
+			<ModifierId>SPY_JOHNSON_QUARTERMASTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_BOOST_ALL_SPIES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SPY_JOHNSON_QUARTERMASTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

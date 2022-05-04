@@ -151,31 +151,30 @@
 
 	<Building_YieldChanges>
 		<!-- Start Game: Monument gives great base stats to any city, except production cuz too OP for early game (run out of stuff to build) -->
-		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FOOD" YieldChange="9"/>
 
 		<!-- Ancient Era: Workshop boosts production and gold -->
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 
 		<!-- Ancient Era: Library boosts science and culture -->
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_CULTURE" YieldChange="4"/>
 		
 		<!-- Renaissance Era: Museums provide culture benefits -->
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="5"/>
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="4"/>
 
 		<!-- Modern Era: Provides electricity, plus more stats for late game benefits -->
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FOOD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_GOLD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
 		
 		<!-- Atomic Era: Broadcast Centers for music and culture -->
 		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="5"/>
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
+		<!-- Hard prophet on monument to get first religion -->
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
@@ -187,10 +186,9 @@
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
 		
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 	</Building_GreatPersonPoints>

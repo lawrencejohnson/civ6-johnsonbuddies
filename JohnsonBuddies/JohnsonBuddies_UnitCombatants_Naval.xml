@@ -51,12 +51,13 @@
 			<RangedCombat>225</RangedCombat>
 			<Range>6</Range>
 			<AntiAirCombat>225</AntiAirCombat>
-			<CanTargetAir>true</CanTargetAir>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 			<PrereqTech>TECH_SAILING</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 
 		<Row>
@@ -74,12 +75,13 @@
 			<RangedCombat>235</RangedCombat>
 			<Range>6</Range>
 			<AntiAirCombat>235</AntiAirCombat>
-			<CanTargetAir>true</CanTargetAir>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 	</Units>
 

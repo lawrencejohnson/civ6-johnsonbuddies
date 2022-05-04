@@ -4,6 +4,7 @@
 <!-- DateCreated: 4/17/2022 3:08:46 PM -->
 <GameData>
 	<Districts_XP2>
-		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" PreventsDrought="true" PreventsFloods="true" />
+		<!-- OnePerRiver may need to be true in order for PreventsFlood to work - untested -->
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" OnePerRiver="false" PreventsDrought="true" PreventsFloods="true" />
 	</Districts_XP2>
 </GameData>

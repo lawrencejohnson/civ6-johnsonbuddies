@@ -157,5 +157,16 @@
 		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
 			<Text>Johnson Buildings</Text>
 		</Row>
+		
+		<!-- Projects -->
+		<Row Tag="LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME" Language="en_US">
+			<Text>Johnson City Idle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_SHORT_NAME" Language="en_US">
+			<Text>Johnson City Idle</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME_DESCRIPTION" Language="en_US">
+			<Text>Set your city to idle because you've built too much other stuff already. This project yields absolutely nothing, so cancel at any time!</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
