@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		
+		<!-- Promotions -->
+		<Row Tag="LOC_PROMOTION_CLASS_JOHNSON_COMBATANT_NAME" Language="en_US">
+			<Text>Johnson Combatant</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_ATTACK_MOVE_NAME" Language="en_US">
+			<Text>Guerrilla Pirate</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_ATTACK_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking and earn 50 gold sinking ships.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_NAME" Language="en_US">
+			<Text>Stealth</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_DESCRIPTION" Language="en_US">
+			<Text>Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_NAME" Language="en_US">
+			<Text>Triple Threat</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_DESCRIPTION" Language="en_US">
+			<Text>Gain 2 extra attacks.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_NAME" Language="en_US">
+			<Text>Eye of Sauron</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_DESCRIPTION" Language="en_US">
+			<Text>Gain 2 additional sight and attack range.</Text>
+		</Row>
+
 		<!-- Settlements -->
 		<Row Tag="LOC_UNIT_JOHNSON_SETTLER_NAME" Language="en_US">
 			<Text>Settler Johnson</Text>

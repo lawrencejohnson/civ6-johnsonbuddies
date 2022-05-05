@@ -46,7 +46,7 @@
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>16</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
-			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
 			<Range>6</Range>
@@ -70,7 +70,7 @@
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
 			<Cost>170</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
-			<PromotionClass>PROMOTION_CLASS_NAVAL_RAIDER</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
 			<Range>6</Range>

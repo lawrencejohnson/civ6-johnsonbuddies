@@ -5,17 +5,11 @@
 <GameData>
 
 	<Types>
-		<!--
-		<Row Type="PROMOTION_JOHNSON_ORATOR" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_PROSELYTIZER" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_TRANSLATOR" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_PILGRIM" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_INDULGENCE_VENDOR" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_HEATHEN_CONVERSION" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_DEBATER" Kind="KIND_PROMOTION"/>
-		<Row Type="PROMOTION_JOHNSON_CHAPLAIN" Kind="KIND_PROMOTION"/>
-		-->
-
+		<!-- Apostle -->
+		<Row Type="PROMOTION_CLASS_JOHNSON_APOSTLE" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_JOHNSON_MARTYR" Kind="KIND_PROMOTION"/>
+		
+		<!-- Spy -->
 		<Row Type="PROMOTION_CLASS_JOHNSON_SPY" Kind="KIND_PROMOTION_CLASS"/>
 		<Row Type="PROMOTION_JOHNSON_SPY_SEDUCTION" Kind="KIND_PROMOTION"/>
 		<Row Type="PROMOTION_JOHNSON_SPY_QUARTERMASTER" Kind="KIND_PROMOTION"/>
@@ -28,27 +22,23 @@
 		<Row Type="PROMOTION_JOHNSON_SPY_DISGUISE" Kind="KIND_PROMOTION"/>
 		<Row Type="PROMOTION_JOHNSON_SPY_LINGUIST" Kind="KIND_PROMOTION"/>
 		<Row Type="PROMOTION_JOHNSON_SPY_ACE_DRIVER" Kind="KIND_PROMOTION"/>
-		
-		<Row Type="PROMOTION_CLASS_JOHNSON_APOSTLE" Kind="KIND_PROMOTION_CLASS"/>
-		<Row Type="PROMOTION_JOHNSON_MARTYR" Kind="KIND_PROMOTION"/>
+
+		<!-- Combatant -->
+		<Row Type="PROMOTION_CLASS_JOHNSON_COMBATANT" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_JOHNSON_ATTACK_MOVE" Kind="KIND_PROMOTION"/> <!-- Extra movement after attack, gold from naval victories -->
+		<Row Type="PROMOTION_JOHNSON_CAMOUFLAGE" Kind="KIND_PROMOTION"/> <!-- Only visible to 1 tile away -->
+		<Row Type="PROMOTION_JOHNSON_EXTRA_ATTACK" Kind="KIND_PROMOTION"/> <!-- extra attack (all types?) -->
+		<Row Type="PROMOTION_JOHNSON_SIGHT_RANGE" Kind="KIND_PROMOTION"/> <!-- extra range -->
 	</Types>
 
 	<UnitPromotionClasses>
 		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_APOSTLE" Name="LOC_PROMOTION_CLASS_APOSTLE_NAME"/>
 		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_SPY" Name="LOC_PROMOTION_CLASS_SPY_NAME"/>
+		<Row PromotionClassType="PROMOTION_CLASS_JOHNSON_COMBATANT" Name="LOC_PROMOTION_CLASS_JOHNSON_COMBATANT_NAME"/>
 	</UnitPromotionClasses>
 
 	<UnitPromotions>
-		<!--
-		<Row UnitPromotionType="PROMOTION_JOHNSON_ORATOR" Name="LOC_PROMOTION_ORATOR_NAME" Description="LOC_PROMOTION_ORATOR_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_PROSELYTIZER" Name="LOC_PROMOTION_PROSELYTIZER_NAME" Description="LOC_PROMOTION_PROSELYTIZER_DESCRIPTION" Level="1" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_TRANSLATOR" Name="LOC_PROMOTION_TRANSLATOR_NAME" Description="LOC_PROMOTION_TRANSLATOR_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_PILGRIM" Name="LOC_PROMOTION_PILGRIM_NAME" Description="LOC_PROMOTION_PILGRIM_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_INDULGENCE_VENDOR" Name="LOC_PROMOTION_INDULGENCE_VENDOR_NAME" Description="LOC_PROMOTION_INDULGENCE_VENDOR_DESCRIPTION" Level="2" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_HEATHEN_CONVERSION" Name="LOC_PROMOTION_HEATHEN_CONVERSION_NAME" Description="LOC_PROMOTION_HEATHEN_CONVERSION_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_DEBATER" Name="LOC_PROMOTION_DEBATER_NAME" Description="LOC_PROMOTION_DEBATER_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		<Row UnitPromotionType="PROMOTION_JOHNSON_CHAPLAIN" Name="LOC_PROMOTION_CHAPLAIN_NAME" Description="LOC_PROMOTION_CHAPLAIN_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
-		-->
+		<!-- Apostle -->
 		<Row UnitPromotionType="PROMOTION_JOHNSON_MARTYR" Name="LOC_PROMOTION_MARTYR_NAME" Description="LOC_PROMOTION_MARTYR_DESCRIPTION" 
 			Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_APOSTLE" Specialization=""/>
 
@@ -89,9 +79,22 @@
 		<Row UnitPromotionType="PROMOTION_JOHNSON_SPY_LINGUIST" Name="LOC_PROMOTION_SPY_LINGUIST_NAME" Description="LOC_PROMOTION_SPY_LINGUIST_DESCRIPTION"
 			Specialization=""
 			Level="4" Column="5" PromotionClass="PROMOTION_CLASS_JOHNSON_SPY"/>
+
+		<!-- Combatant -->
+		<Row UnitPromotionType="PROMOTION_JOHNSON_ATTACK_MOVE" Name="LOC_PROMOTION_JOHNSON_ATTACK_MOVE_NAME" Description="LOC_PROMOTION_JOHNSON_ATTACK_MOVE_DESCRIPTION"
+			Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_CAMOUFLAGE" Name="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_NAME" Description="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_DESCRIPTION"
+			Level="1" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+
+		<Row UnitPromotionType="PROMOTION_JOHNSON_EXTRA_ATTACK" Name="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_NAME" Description="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_DESCRIPTION"
+			Level="2" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+		
+		<Row UnitPromotionType="PROMOTION_JOHNSON_SIGHT_RANGE" Name="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_NAME" Description="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_DESCRIPTION"
+			Level="3" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
 	</UnitPromotions>
 
 	<UnitPromotionPrereqs>
+		<!-- Spy -->
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_SEDUCTION"/>
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_TECHNOLOGIST"/>
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_QUARTERMASTER" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_ACE_DRIVER"/>
@@ -115,9 +118,16 @@
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_DEMOLITIONS"/>
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_CON_ARTIST"/>
 		<Row UnitPromotion="PROMOTION_JOHNSON_SPY_LINGUIST" PrereqUnitPromotion="PROMOTION_JOHNSON_SPY_GUERILLA_LEADER"/>
+
+		<!-- Combatant -->
+		<Row UnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK" PrereqUnitPromotion="PROMOTION_JOHNSON_ATTACK_MOVE"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK" PrereqUnitPromotion="PROMOTION_JOHNSON_CAMOUFLAGE"/>
+		
+		<Row UnitPromotion="PROMOTION_JOHNSON_SIGHT_RANGE" PrereqUnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK"/>
 	</UnitPromotionPrereqs>
 
 	<UnitPromotionModifiers>
+		<!-- Spy -->
 		<Row>
 			<UnitPromotionType>PROMOTION_JOHNSON_SPY_TECHNOLOGIST</UnitPromotionType>
 			<ModifierId>SPY_TECHNOLOGIST</ModifierId>
@@ -207,43 +217,39 @@
 			<ModifierId>SPY_ACE_DRIVER</ModifierId>
 		</Row>
 		
-		<!-- 
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_ORATOR</UnitPromotionType>
-			<ModifierId>APOSTLE_EXTRA_SPREAD_CHARGES</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_PROSELYTIZER</UnitPromotionType>
-			<ModifierId>APOSTLE_EVICT_ALL</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_TRANSLATOR</UnitPromotionType>
-			<ModifierId>APOSTLE_FOREIGN_SPREAD</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_PILGRIM</UnitPromotionType>
-			<ModifierId>APOSTLE_NW_DEFERRED_CHARGES</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_INDULGENCE_VENDOR</UnitPromotionType>
-			<ModifierId>APOSTLE_INITIATION_GOLD</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_HEATHEN_CONVERSION</UnitPromotionType>
-			<ModifierId>APOSTLE_BARBARIAN_CONVERSION</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_DEBATER</UnitPromotionType>
-			<ModifierId>APOSTLE_DEBATER</ModifierId>
-		</Row>
-		<Row>
-			<UnitPromotionType>PROMOTION_JOHNSON_CHAPLAIN</UnitPromotionType>
-			<ModifierId>APOSTLE_CHAPLAIN</ModifierId>
-		</Row>
-		-->
+		<!-- Apostle -->
 		<Row>
 			<UnitPromotionType>PROMOTION_JOHNSON_MARTYR</UnitPromotionType>
 			<ModifierId>APOSTLE_MARTYR</ModifierId>
+		</Row>
+		
+		<!-- Combatant -->
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_ATTACK_MOVE</UnitPromotionType>
+			<ModifierId>FADE_BONUS_MOVE_AFTER_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_ATTACK_MOVE</UnitPromotionType>
+			<ModifierId>BOARDING_GOLD_FROM_NAVAL_VICTORY</ModifierId>
+		</Row>
+		
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_CAMOUFLAGE</UnitPromotionType>
+			<ModifierId>CAMOUFLAGE_STEALTH</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_EXTRA_ATTACK</UnitPromotionType>
+			<ModifierId>JOHNSON_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SIGHT_RANGE</UnitPromotionType>
+			<ModifierId>JOHNSON_BONUS_RANGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_SIGHT_RANGE</UnitPromotionType>
+			<ModifierId>JOHNSON_BONUS_SIGHT</ModifierId>
 		</Row>
 	</UnitPromotionModifiers>
 
@@ -252,10 +258,41 @@
 			<ModifierId>SPY_JOHNSON_QUARTERMASTER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_BOOST_ALL_SPIES</ModifierType>
 		</Row>
+
+		<Row>
+			<ModifierId>JOHNSON_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>JOHNSON_BONUS_RANGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>JOHNSON_BONUS_SIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
 			<ModifierId>SPY_JOHNSON_QUARTERMASTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>JOHNSON_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>JOHNSON_BONUS_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>JOHNSON_BONUS_SIGHT</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>

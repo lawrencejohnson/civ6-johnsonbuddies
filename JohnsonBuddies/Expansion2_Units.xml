@@ -28,7 +28,7 @@
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>130</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
-			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>245</Combat>
 			<RangedCombat>245</RangedCombat>
 			<AntiAirCombat>245</AntiAirCombat>

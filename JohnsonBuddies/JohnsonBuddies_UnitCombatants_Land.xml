@@ -74,7 +74,7 @@
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>7</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
-			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>225</Combat>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
@@ -93,7 +93,7 @@
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
 			<Cost>12</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
-			<PromotionClass>PROMOTION_CLASS_RECON</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>235</Combat>
 			<RangedCombat>235</RangedCombat>
 			<AntiAirCombat>235</AntiAirCombat>
@@ -124,7 +124,7 @@
 			<CanTargetAir>TRUE</CanTargetAir>
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
-			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
@@ -147,7 +147,7 @@
 			<CanTargetAir>TRUE</CanTargetAir>
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
-			<PromotionClass>PROMOTION_CLASS_RANGED</PromotionClass>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
