@@ -129,6 +129,10 @@
 		<!-- Districts -->
 		<Row Name="ICON_DISTRICT_JOHNSON_NEIGHBORHOOD"            Atlas="ICON_ATLAS_DISTRICTS" Index="10"/>
 		<Row Name="ICON_DISTRICT_JOHNSON_NEIGHBORHOOD_FOW"          Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
+		<Row Name="DISTRICT_JOHNSON_NEIGHBORHOOD" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="181"/>
+		<Row Name="ICON_DISTRICT_JOHNSON_INDUSTRIAL_ZONE"            Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<Row Name="ICON_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_FOW"          Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="9"/>
+		<Row Name="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="185"/>
 
 		<!-- Buildings -->
 		<Row Name="ICON_BUILDING_JOHNSON_MONUMENT"             Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
@@ -154,6 +158,14 @@
 		
 		<!-- Projects -->
 		<Row Name="ICON_PROJECT_JOHNSON_IDLE_PRODUCTION"                Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+		
+		<!-- Civics -->
+		<Row Name="ICON_CIVIC_JOHNSON_FUTURE_CIVIC"				  Index="50" Atlas="ICON_ATLAS_CIVICS"/>
+		<Row Name="ICON_CIVIC_JOHNSON_FUTURE_CIVIC_FOW"				  Index="50" Atlas="ICON_ATLAS_CIVICS_FOW"/>
+		
+		<!-- Technologies -->
+		<Row Name="ICON_TECH_JOHNSON_FUTURE_TECH" Index="2" Atlas="ICON_ATLAS_TECH_2"/>
+		<Row Name="ICON_TECH_JOHNSON_FUTURE_TECH_FOW" Index="2" Atlas="ICON_ATLAS_TECH_FOW_2"/>
 	</IconDefinitions>
 	
 	<IconAliases>

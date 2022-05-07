@@ -156,7 +156,7 @@
 
 		<!-- Ancient Era: Workshop boosts production and gold -->
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="4"/>
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 
 		<!-- Ancient Era: Library boosts science and culture -->
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
@@ -167,7 +167,7 @@
 
 		<!-- Modern Era: Provides electricity, plus more stats for late game benefits -->
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FOOD" YieldChange="9"/>
-		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 		
 		<!-- Atomic Era: Broadcast Centers for music and culture -->
 		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="5"/>

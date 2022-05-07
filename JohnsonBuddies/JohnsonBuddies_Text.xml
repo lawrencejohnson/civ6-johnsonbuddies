@@ -123,6 +123,12 @@
 		<Row Tag="LOC_DISTRICT_JOHNSON_NEIGHBORHOOD_DESCRIPTION" Language="en_US">
 			<Text>Johnson family neighborhoods work like regular neighborhoods, but they also prevent floods and drought.</Text>
 		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_NAME" Language="en_US">
+			<Text>Johnson Industrial Zone</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
+			<Text>Johnson family industrial zone for beefy production.</Text>
+		</Row>
 
 		<!-- Ancient Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">
@@ -195,6 +201,22 @@
 		</Row>
 		<Row Tag="LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME_DESCRIPTION" Language="en_US">
 			<Text>Set your city to idle because you've built too much other stuff already. This project yields absolutely nothing, so cancel at any time!</Text>
+		</Row>
+		
+		<!-- Civics -->
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_NAME" Language="en_US">
+			<Text>Johnson Civic</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_DESCRIPTION" Language="en_US">
+			<Text>Can be completed multiple times, but less repetitive clicking.</Text>
+		</Row>
+		
+		<!-- Technologies -->
+		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_NAME" Language="en_US">
+			<Text>Johnson Tech</Text>
+		</Row>
+		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION">
+			<Text>Can be completed multiple times, but less repetitive clicking.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JohnsonBuddies_Civics -->
+<!-- Author: Life -->
+<!-- DateCreated: 5/6/2022 7:47:48 PM -->
+<GameData>
+	<Types>
+		<Row Type="CIVIC_JOHNSON_FUTURE_CIVIC" Kind="KIND_CIVIC"/>
+	</Types>
+
+	<Civics>
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" Name="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_NAME" 
+			 Description="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_DESCRIPTION" Cost="100000" 
+			 AdvisorType="ADVISOR_CULTURE" EraType="ERA_INFORMATION" 
+			 UITreeRow="1" Repeatable="true"/>
+	</Civics>
+
+	<CivicPrereqs>
+		<Row Civic="CIVIC_JOHNSON_FUTURE_CIVIC" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
+	</CivicPrereqs>
+
+	<CivicQuotes>
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" Quote="LOC_CIVIC_FUTURE_CIVIC_QUOTE_1" QuoteAudio="PLAY_FUTURE_CIVIC_QUOTE_1"/>
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" Quote="LOC_CIVIC_FUTURE_CIVIC_QUOTE_2" QuoteAudio="PLAY_FUTURE_CIVIC_QUOTE_2"/>
+	</CivicQuotes>
+</GameData>
