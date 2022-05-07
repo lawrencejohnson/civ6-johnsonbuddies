@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Expansion1_Civics -->
+<!-- Author: Life -->
+<!-- DateCreated: 5/6/2022 8:21:01 PM -->
+<GameData>
+	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC</CivicType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</CivicModifiers>
+</GameData>

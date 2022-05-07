@@ -210,12 +210,15 @@
 		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_DESCRIPTION" Language="en_US">
 			<Text>Can be completed multiple times, but less repetitive clicking.</Text>
 		</Row>
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_XP2_DESCRIPTION" Language="en_US">
+			<Text>Can be completed multiple times, with less repetitive clicking. Also awards 1 [ICON_Governor] Governor title and 50 [ICON_Favor] Diplomatic Favor each time it is completed.</Text>
+		</Row>
 		
 		<!-- Technologies -->
 		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_NAME" Language="en_US">
 			<Text>Johnson Tech</Text>
 		</Row>
-		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION">
+		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION" Language="en_US">
 			<Text>Can be completed multiple times, but less repetitive clicking.</Text>
 		</Row>
 	</LocalizedText>

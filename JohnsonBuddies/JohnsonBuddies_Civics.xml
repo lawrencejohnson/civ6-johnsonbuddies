@@ -8,6 +8,13 @@
 	</Types>
 
 	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC"/>
+			<Set>
+				<Repeatable>false</Repeatable>
+			</Set>
+		</Update>
+		
 		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" Name="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_NAME" 
 			 Description="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_DESCRIPTION" Cost="100000" 
 			 AdvisorType="ADVISOR_CULTURE" EraType="ERA_INFORMATION" 

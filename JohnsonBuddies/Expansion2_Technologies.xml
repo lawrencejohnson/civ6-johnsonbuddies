@@ -1,34 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- JohnsonBuddies_Technologies -->
+<!-- Expansion2_Technologies -->
 <!-- Author: Life -->
-<!-- DateCreated: 4/16/2022 6:07:39 PM -->
+<!-- DateCreated: 5/6/2022 8:25:10 PM -->
 <GameData>
 	<Types>
+		<Delete Type="TECH_JOHNSON_FUTURE_TECH"/>
+
 		<Row Type="TECH_JOHNSON_FUTURE_TECH" Kind="KIND_TECH"/>
 	</Types>
+
 	<Technologies>
-		<Update>
-			<Where TechnologyType="TECH_POTTERY"/>
-			<Set>
-				<EmbarkUnitType>UNIT_JOHNSON_BUILDER</EmbarkUnitType>
-			</Set>
-		</Update>
-
-		<Update>
-			<Where CivicType="TECH_FUTURE_TECH"/>
-			<Set>
-				<Repeatable>false</Repeatable>
-			</Set>
-		</Update>
-
 		<Row 
 			TechnologyType="TECH_JOHNSON_FUTURE_TECH" Name="LOC_TECH_JOHNSON_FUTURE_TECH_NAME" Description="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION" 
-			Cost="100000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_INFORMATION" UITreeRow="0" Repeatable="true"/>
+			Cost="100000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="0" Repeatable="true"/>
 	</Technologies>
 
-	<TechnologyPrereqs>
-		<Row Technology="TECH_JOHNSON_FUTURE_TECH" PrereqTech="TECH_FUTURE_TECH"/>
-	</TechnologyPrereqs>
+	<Technologies_XP2>
+		<Row TechnologyType="TECH_JOHNSON_FUTURE_TECH" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+	</Technologies_XP2>
 
 	<TechnologyQuotes>
 		<Row TechnologyType="TECH_JOHNSON_FUTURE_TECH" Quote="LOC_TECH_FUTURE_TECH_QUOTE_1" QuoteAudio="Play_Future_Tech_Quote_1"/>

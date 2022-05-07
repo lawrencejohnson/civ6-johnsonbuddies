@@ -196,17 +196,19 @@
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="1" />
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="1"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="1"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3"
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="4"
 			 ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100"
 			 NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART" />
 		
-		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="3"
+		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="4"
 			 ThemingSameEras="true" ThemingUniqueCivs="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" 
 			 NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY"/>
-		
-		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="3"/>
+
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
 	</Building_GreatWorks>
 </GameData>
