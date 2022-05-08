@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_JOHNSON_SEADOG" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Kind="KIND_UNIT"/>
 	</Types>
 
@@ -10,6 +11,11 @@
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_JOHNSON_SEADOG" AiType="UNITTYPE_NAVAL"/>
+
+		<Row UnitType="UNIT_JOHNSON_IRONCLAD" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_IRONCLAD" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_IRONCLAD" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_IRONCLAD" AiType="UNITTYPE_NAVAL"/>
 
 		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_JOHNSON_MISSILE_CRUISER" AiType="UNITAI_EXPLORE"/>
@@ -23,15 +29,20 @@
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_ANTI_AIR"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_CAPTURE_SHIPS"/>
 		<Row Type="UNIT_JOHNSON_SEADOG" Tag="CLASS_OBSERVATION"/>
+
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_IRONCLAD" Tag="CLASS_OBSERVATION"/>
 
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_NAVAL_RAIDER"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_ANTI_AIR"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_CAPTURE_SHIPS"/>
 		<Row Type="UNIT_JOHNSON_MISSILE_CRUISER" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
@@ -47,6 +58,30 @@
 			<Cost>16</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
+			<Combat>215</Combat>
+			<RangedCombat>215</RangedCombat>
+			<Range>6</Range>
+			<AntiAirCombat>215</AntiAirCombat>
+			<CanTargetAir>TRUE</CanTargetAir>
+			<ZoneOfControl>true</ZoneOfControl>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
+			<PrereqTech>TECH_SAILING</PrereqTech>
+			<InitialLevel>4</InitialLevel>
+		</Row>
+
+		<Row>
+			<UnitType>UNIT_JOHNSON_IRONCLAD</UnitType>
+			<Name>LOC_UNIT_JOHNSON_IRONCLAD_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_IRONCLAD_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_SEA</Domain>
+			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
+			<Cost>90</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>225</Combat>
 			<RangedCombat>225</RangedCombat>
 			<Range>6</Range>
@@ -56,7 +91,7 @@
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
-			<PrereqTech>TECH_SAILING</PrereqTech>
+			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<InitialLevel>4</InitialLevel>
 		</Row>
 
@@ -87,10 +122,12 @@
 
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SEADOG" ReplacesUnitType="UNIT_GALLEY"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_IRONCLAD" ReplacesUnitType="UNIT_IRONCLAD"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_MISSILE_CRUISER" ReplacesUnitType="UNIT_MISSILE_CRUISER"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>
-		<Row Unit="UNIT_JOHNSON_SEADOG" UpgradeUnit="UNIT_JOHNSON_MISSILE_CRUISER"/>
+		<Row Unit="UNIT_JOHNSON_SEADOG" UpgradeUnit="UNIT_JOHNSON_IRONCLAD"/>
+		<Row Unit="UNIT_JOHNSON_IRONCLAD" UpgradeUnit="UNIT_JOHNSON_MISSILE_CRUISER"/>
 	</UnitUpgrades>
 </GameData>

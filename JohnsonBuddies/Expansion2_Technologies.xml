@@ -5,14 +5,20 @@
 <GameData>
 	<Types>
 		<Delete Type="TECH_JOHNSON_FUTURE_TECH"/>
-
 		<Row Type="TECH_JOHNSON_FUTURE_TECH" Kind="KIND_TECH"/>
 	</Types>
 
 	<Technologies>
-		<Row 
-			TechnologyType="TECH_JOHNSON_FUTURE_TECH" Name="LOC_TECH_JOHNSON_FUTURE_TECH_NAME" Description="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION" 
-			Cost="100000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="0" Repeatable="true"/>
+		<Row>
+			<TechnologyType>TECH_JOHNSON_FUTURE_TECH</TechnologyType>
+			<Name>LOC_TECH_JOHNSON_FUTURE_TECH_NAME</Name>
+			<Description>LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION</Description>
+			<Cost>1000000</Cost>
+			<EraType>ERA_FUTURE</EraType>
+			<UITreeRow>0</UITreeRow>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<Repeatable>true</Repeatable>
+		</Row>
 	</Technologies>
 
 	<Technologies_XP2>
@@ -23,4 +29,11 @@
 		<Row TechnologyType="TECH_JOHNSON_FUTURE_TECH" Quote="LOC_TECH_FUTURE_TECH_QUOTE_1" QuoteAudio="Play_Future_Tech_Quote_1"/>
 		<Row TechnologyType="TECH_JOHNSON_FUTURE_TECH" Quote="LOC_TECH_FUTURE_TECH_QUOTE_2" QuoteAudio="Play_Future_Tech_Quote_2"/>
 	</TechnologyQuotes>
+
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_JOHNSON_FUTURE_TECH</TechnologyType>
+			<ModifierId>FUTURE_TECH_PROJECT_PRODUCTION</ModifierId>
+		</Row>
+	</TechnologyModifiers>
 </GameData>

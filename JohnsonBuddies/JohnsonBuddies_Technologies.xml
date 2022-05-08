@@ -14,16 +14,16 @@
 			</Set>
 		</Update>
 
-		<Update>
-			<Where CivicType="TECH_FUTURE_TECH"/>
-			<Set>
-				<Repeatable>false</Repeatable>
-			</Set>
-		</Update>
-
-		<Row 
-			TechnologyType="TECH_JOHNSON_FUTURE_TECH" Name="LOC_TECH_JOHNSON_FUTURE_TECH_NAME" Description="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION" 
-			Cost="100000" AdvisorType="ADVISOR_GENERIC" EraType="ERA_INFORMATION" UITreeRow="0" Repeatable="true"/>
+		<Row>
+			<TechnologyType>TECH_JOHNSON_FUTURE_TECH</TechnologyType>
+			<Name>LOC_TECH_JOHNSON_FUTURE_TECH_NAME</Name>
+			<Description>LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION</Description>
+			<Cost>1000000</Cost>
+			<EraType>ERA_INFORMATION</EraType>
+			<UITreeRow>0</UITreeRow>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<Repeatable>true</Repeatable>
+		</Row>
 	</Technologies>
 
 	<TechnologyPrereqs>

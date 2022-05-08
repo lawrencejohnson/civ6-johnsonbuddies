@@ -3,7 +3,8 @@
 	<Types>
 		<Row Type="UNIT_JOHNSON_SCOUT" Kind="KIND_UNIT" />
 		<Row Type="UNIT_JOHNSON_RANGER" Kind="KIND_UNIT" />
-		
+
+		<Row Type="UNIT_JOHNSON_SLINGER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_ARCHER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Kind="KIND_UNIT"/>
 	</Types>
@@ -13,6 +14,11 @@
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_JOHNSON_SCOUT" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_JOHNSON_SLINGER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_JOHNSON_SLINGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_SLINGER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_JOHNSON_SLINGER" AiType="UNITTYPE_LAND_COMBAT"/>
 
 		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_RANGER" AiType="UNITAI_COMBAT"/>
@@ -36,6 +42,13 @@
 		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_SCOUT" Tag="CLASS_OBSERVATION"/>
+
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_JOHNSON_SLINGER" Tag="CLASS_MOBILE_RANGED"/>
 
 		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_JOHNSON_RANGER" Tag="CLASS_REVEAL_STEALTH"/>
@@ -109,6 +122,26 @@
 		
 		<!-- Ranged -->
 		<Row>
+			<UnitType>UNIT_JOHNSON_SLINGER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_SLINGER_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_SLINGER_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>15</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
+			<Combat>225</Combat>
+			<RangedCombat>215</RangedCombat>
+			<Range>5</Range>
+			<ZoneOfControl>true</ZoneOfControl>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<InitialLevel>4</InitialLevel>
+		</Row>
+		
+		<Row>
 			<UnitType>UNIT_JOHNSON_ARCHER</UnitType>
 			<Name>LOC_UNIT_JOHNSON_ARCHER_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_ARCHER_DESC</Description>
@@ -158,13 +191,15 @@
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SCOUT" ReplacesUnitType="UNIT_SCOUT"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_RANGER" ReplacesUnitType="UNIT_RANGER"/>
-		
+
+		<Row CivUniqueUnitType="UNIT_JOHNSON_SLINGER" ReplacesUnitType="UNIT_SLINGER"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>
 		<Row Unit="UNIT_JOHNSON_SCOUT" UpgradeUnit="UNIT_JOHNSON_RANGER"/>
+		<Row Unit="UNIT_JOHNSON_SLINGER" UpgradeUnit="UNIT_JOHNSON_ARCHER"/>
 		<Row Unit="UNIT_JOHNSON_ARCHER" UpgradeUnit="UNIT_JOHNSON_ROCKET_ARTILLERY"/>
 	</UnitUpgrades>
 </GameData>

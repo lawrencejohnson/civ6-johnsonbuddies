@@ -39,6 +39,7 @@
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
 			<PrereqTech>TECH_PLASTICS</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 	</Units>
 

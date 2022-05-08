@@ -89,6 +89,12 @@
 		</Row>
 
 		<!-- Land -->
+		<Row Tag="LOC_UNIT_JOHNSON_SLINGER_NAME" Language="en_US">
+			<Text>Slinger Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_SLINGER_DESC" Language="en_US">
+			<Text>A super slinger from the Johnson family.</Text>
+		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_NAME" Language="en_US">
 			<Text>Archer Johnson</Text>
 		</Row>
@@ -108,6 +114,12 @@
 		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_SEADOG_DESC" Language="en_US">
 			<Text>A super sea dog from the Johnson family.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_IRONCLAD_NAME" Language="en_US">
+			<Text>Ironclad Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_IRONCLAD_DESC" Language="en_US">
+			<Text>A super ironclad from the Johnson family.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_MISSILE_CRUISER_NAME" Language="en_US">
 			<Text>Cruiser Johnson</Text>

@@ -20,6 +20,10 @@
 	<CivicModifiers>
 		<Row>
 			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC</CivicType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC</CivicType>
 			<ModifierId>CIVIC_GRANT_FAVOR</ModifierId>
 		</Row>
 	</CivicModifiers>
