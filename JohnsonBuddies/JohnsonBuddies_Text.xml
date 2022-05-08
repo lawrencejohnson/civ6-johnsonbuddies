@@ -101,6 +101,12 @@
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHER_DESC" Language="en_US">
 			<Text>A super archer from the Johnson family.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_MACHINE_GUN_NAME" Language="en_US">
+			<Text>Machine Gun Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_MACHINE_GUN_DESC" Language="en_US">
+			<Text>A super machine gun from the Johnson family.</Text>
+		</Row>
 		<Row Tag="LOC_UNIT_JOHNSON_ROCKET_ARTILLERY_NAME" Language="en_US">
 			<Text>Rocket Johnson</Text>
 		</Row>
