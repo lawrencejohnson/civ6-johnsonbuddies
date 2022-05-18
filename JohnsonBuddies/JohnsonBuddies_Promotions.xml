@@ -27,7 +27,9 @@
 		<Row Type="PROMOTION_CLASS_JOHNSON_COMBATANT" Kind="KIND_PROMOTION_CLASS"/>
 		<Row Type="PROMOTION_JOHNSON_ATTACK_MOVE" Kind="KIND_PROMOTION"/> <!-- Extra movement after attack, gold from naval victories -->
 		<Row Type="PROMOTION_JOHNSON_CAMOUFLAGE" Kind="KIND_PROMOTION"/> <!-- Only visible to 1 tile away -->
+		<Row Type="PROMOTION_JOHNSON_GARRISON" Kind="KIND_PROMOTION"/> <!-- garrison bonus -->
 		<Row Type="PROMOTION_JOHNSON_EXTRA_ATTACK" Kind="KIND_PROMOTION"/> <!-- extra attack (all types?) -->
+		<Row Type="PROMOTION_JOHNSON_EMPLACEMENT" Kind="KIND_PROMOTION"/> <!-- vs city attacks -->
 		<Row Type="PROMOTION_JOHNSON_SIGHT_RANGE" Kind="KIND_PROMOTION"/> <!-- extra range -->
 	</Types>
 
@@ -85,12 +87,16 @@
 			Level="1" Column="1" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
 		<Row UnitPromotionType="PROMOTION_JOHNSON_CAMOUFLAGE" Name="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_NAME" Description="LOC_PROMOTION_JOHNSON_CAMOUFLAGE_DESCRIPTION"
 			Level="1" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_GARRISON" Name="LOC_PROMOTION_GARRISON_NAME" Description="LOC_PROMOTION_GARRISON_DESCRIPTION"
+			 Level="1" Column="5" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
 
 		<Row UnitPromotionType="PROMOTION_JOHNSON_EXTRA_ATTACK" Name="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_NAME" Description="LOC_PROMOTION_JOHNSON_EXTRA_ATTACK_DESCRIPTION"
 			Level="2" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+		<Row UnitPromotionType="PROMOTION_JOHNSON_EMPLACEMENT" Name="LOC_PROMOTION_EMPLACEMENT_NAME" Description="LOC_PROMOTION_EMPLACEMENT_DESCRIPTION" 
+			 Level="2" Column="4" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
 		
 		<Row UnitPromotionType="PROMOTION_JOHNSON_SIGHT_RANGE" Name="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_NAME" Description="LOC_PROMOTION_JOHNSON_SIGHT_RANGE_DESCRIPTION"
-			Level="3" Column="2" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
+			Level="3" Column="3" PromotionClass="PROMOTION_CLASS_JOHNSON_COMBATANT" Specialization=""/>
 	</UnitPromotions>
 
 	<UnitPromotionPrereqs>
@@ -122,8 +128,11 @@
 		<!-- Combatant -->
 		<Row UnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK" PrereqUnitPromotion="PROMOTION_JOHNSON_ATTACK_MOVE"/>
 		<Row UnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK" PrereqUnitPromotion="PROMOTION_JOHNSON_CAMOUFLAGE"/>
-		
+		<Row UnitPromotion="PROMOTION_JOHNSON_EMPLACEMENT" PrereqUnitPromotion="PROMOTION_JOHNSON_CAMOUFLAGE"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_EMPLACEMENT" PrereqUnitPromotion="PROMOTION_JOHNSON_GARRISON"/>
+
 		<Row UnitPromotion="PROMOTION_JOHNSON_SIGHT_RANGE" PrereqUnitPromotion="PROMOTION_JOHNSON_EXTRA_ATTACK"/>
+		<Row UnitPromotion="PROMOTION_JOHNSON_SIGHT_RANGE" PrereqUnitPromotion="PROMOTION_JOHNSON_EMPLACEMENT"/>
 	</UnitPromotionPrereqs>
 
 	<UnitPromotionModifiers>
@@ -239,8 +248,18 @@
 		</Row>
 
 		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_GARRISON</UnitPromotionType>
+			<ModifierId>GARRISON_BONUS_DISTRICTS</ModifierId>
+		</Row>
+
+		<Row>
 			<UnitPromotionType>PROMOTION_JOHNSON_EXTRA_ATTACK</UnitPromotionType>
 			<ModifierId>JOHNSON_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_JOHNSON_EMPLACEMENT</UnitPromotionType>
+			<ModifierId>EMPLACEMENT_DEFENSE_BONUS_VS_CITIES</ModifierId>
 		</Row>
 
 		<Row>
