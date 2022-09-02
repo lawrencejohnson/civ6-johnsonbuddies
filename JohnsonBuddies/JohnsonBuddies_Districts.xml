@@ -6,9 +6,33 @@
 	<Types>
 		<Row Type="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_JOHNSON_NEIGHBORHOOD" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_JOHNSON_HOLY_SITE" Kind="KIND_DISTRICT"/>
 	</Types>
 
 	<Districts>
+		<Row>
+			<DistrictType>DISTRICT_JOHNSON_HOLY_SITE</DistrictType>
+			<Name>LOC_DISTRICT_JOHNSON_HOLY_SITE_NAME</Name>
+			<Description>LOC_DISTRICT_JOHNSON_HOLY_SITE_DESCRIPTION</Description>
+			<PlunderType>NO_PLUNDER</PlunderType>
+			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
+			<Cost>7</Cost>
+			<PrereqTech>TECH_ASTROLOGY</PrereqTech>
+			<RequiresPlacement>true</RequiresPlacement>
+			<RequiresPopulation>false</RequiresPopulation>
+			<Aqueduct>false</Aqueduct>
+			<NoAdjacentCity>false</NoAdjacentCity>
+			<InternalOnly>false</InternalOnly>
+			<ZOC>true</ZOC>
+			<AllowsHolyCity>true</AllowsHolyCity>
+			<CaptureRemovesBuildings>false</CaptureRemovesBuildings>
+			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
+			<CityStrengthModifier>5</CityStrengthModifier>
+			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
+			<Appeal>1</Appeal>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
+		</Row>
+		
 		<Row>
 			<DistrictType>DISTRICT_JOHNSON_INDUSTRIAL_ZONE</DistrictType>
 			<Name>LOC_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_NAME</Name>
@@ -58,6 +82,7 @@
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
 		<Row CivUniqueDistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+		<Row CivUniqueDistrictType="DISTRICT_JOHNSON_HOLY_SITE" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
 	</DistrictReplaces>
 
 	<District_Adjacencies>
@@ -65,6 +90,14 @@
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldChangeId="Mine_Production"/>
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldChangeId="Quarry_Production"/>
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldChangeId="District_Faith"/>
 	</District_Adjacencies>
 
 	<Adjacency_YieldChanges>
@@ -73,14 +106,18 @@
 
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="4" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="4" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="4"/>
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="4"/>
 	</District_CitizenYieldChanges>
 	
 	<AppealHousingChanges>

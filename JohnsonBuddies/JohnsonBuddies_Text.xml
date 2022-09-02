@@ -87,8 +87,16 @@
 		<Row Tag="LOC_UNIT_JOHNSON_SPEC_OPS_DESC" Language="en_US">
 			<Text>A super spec ops agent from the Johnson family.</Text>
 		</Row>
+		
+		<!-- Melee -->
+		<Row Tag="LOC_UNIT_JOHNSON_WARRIOR_NAME" Language="en_US">
+			<Text>Warrior Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_WARRIOR_DESC" Language="en_US">
+			<Text>A super warrior monk from the Johnson family.</Text>
+		</Row>
 
-		<!-- Land -->
+		<!-- Ranged -->
 		<Row Tag="LOC_UNIT_JOHNSON_SLINGER_NAME" Language="en_US">
 			<Text>Slinger Johnson</Text>
 		</Row>
@@ -147,6 +155,12 @@
 		<Row Tag="LOC_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
 			<Text>Johnson family industrial zone for beefy production.</Text>
 		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_HOLY_SITE_NAME" Language="en_US">
+			<Text>Johnson Holy Site</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_HOLY_SITE_DESCRIPTION" Language="en_US">
+			<Text>Johnson family holy site for very strong religious beliefs.</Text>
+		</Row>
 
 		<!-- Ancient Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">
@@ -166,6 +180,20 @@
 		</Row>
 		<Row Tag="LOC_BUILDING_JOHNSON_LIBRARY_DESC" Language="en_US">
 			<Text>A super library from the Johnson family.</Text>
+		</Row>
+		
+		<!-- Classical Buildings -->
+		<Row Tag="LOC_BUILDING_JOHNSON_SHRINE_NAME" Language="en_US">
+			<Text>Johnson Shrine</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_SHRINE_DESC" Language="en_US">
+			<Text>Speciality shrine for fast religious growth.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_TEMPLE_NAME" Language="en_US">
+			<Text>Johnson Temple</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_TEMPLE_DESC" Language="en_US">
+			<Text>Speciality temple for fast religious growth.</Text>
 		</Row>
 
 		<!-- Renaissance Buildings -->

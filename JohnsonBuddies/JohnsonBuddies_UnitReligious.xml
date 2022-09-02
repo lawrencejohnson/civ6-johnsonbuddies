@@ -43,7 +43,12 @@
 	</Units>
 
 	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_JOHNSON_SHRINE"/>
 		<Row Unit="UNIT_JOHNSON_APOSTLE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Unit="UNIT_JOHNSON_APOSTLE" PrereqBuilding="BUILDING_JOHNSON_TEMPLE"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_JOHNSON_TEMPLE"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_JOHNSON_TEMPLE"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_JOHNSON_TEMPLE"/>
 	</Unit_BuildingPrereqs>
 
 	<UnitReplaces>
