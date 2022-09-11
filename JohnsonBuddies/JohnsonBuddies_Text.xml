@@ -45,6 +45,13 @@
 			<Text>A super builder from the Johnson family.</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_JOHNSON_TRADER_NAME" Language="en_US">
+			<Text>Trader Johnson</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_JOHNSON_TRADER_DESC" Language="en_US">
+			<Text>A super trader from the Johnson family.</Text>
+		</Row>
+
 		<!-- Misc Civilian -->
 		<Row Tag="LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME" Language="en_US">
 			<Text>Archaeologist Johnson</Text>

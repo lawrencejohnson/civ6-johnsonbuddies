@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="UNIT_JOHNSON_SETTLER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_BUILDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_JOHNSON_TRADER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_ARCHAEOLOGIST" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_SPY" Kind="KIND_UNIT"/>
 	</Types>
@@ -14,6 +15,9 @@
 		<Row UnitType="UNIT_JOHNSON_BUILDER" AiType="UNITAI_BUILD"/>
 		<Row UnitType="UNIT_JOHNSON_BUILDER" AiType="UNITTYPE_CIVILIAN"/>
 
+		<Row UnitType="UNIT_JOHNSON_TRADER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_JOHNSON_TRADER" AiType="UNITTYPE_TRADE"/>
+
 		<Row UnitType="UNIT_JOHNSON_SPY" AiType="UNITTYPE_CIVILIAN"/>
 	</UnitAiInfos>
 
@@ -22,6 +26,9 @@
 		<Row Type="UNIT_JOHNSON_SETTLER" Tag="CLASS_REVEAL_STEALTH"/>
 		<Row Type="UNIT_JOHNSON_SETTLER" Tag="CLASS_HELICOPTER"/>
 		<Row Type="UNIT_JOHNSON_SETTLER" Tag="CLASS_OBSERVATION"/>
+		
+		<Row Type="UNIT_JOHNSON_TRADER" Tag="CLASS_TRADER"/>
+		<Row Type="UNIT_JOHNSON_TRADER" Tag="CLASS_LANDCIVILIAN"/>
 
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_JOHNSON_BUILDER" Tag="CLASS_BUILDER"/>
@@ -75,6 +82,26 @@
 		</Row>
 
 		<Row>
+			<UnitType>UNIT_JOHNSON_TRADER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_TRADER_NAME</Name>
+			<Description>LOC_UNIT_JOHNSON_TRADER_DESC</Description>
+			<BaseSightRange>4</BaseSightRange>
+			<BaseMoves>12</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
+			<Cost>10</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
+			<CanCapture>false</CanCapture>
+			<ZoneOfControl>false</ZoneOfControl>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PseudoYieldType>PSEUDOYIELD_UNIT_TRADE</PseudoYieldType>
+			<IgnoreMoves>true</IgnoreMoves>
+			<MakeTradeRoute>true</MakeTradeRoute>
+			<PrereqCivic>CIVIC_FOREIGN_TRADE</PrereqCivic>
+		</Row>
+
+		<Row>
 			<UnitType>UNIT_JOHNSON_ARCHAEOLOGIST</UnitType>
 			<Name>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_NAME</Name>
 			<Description>LOC_UNIT_JOHNSON_ARCHAEOLOGIST_DESC</Description>
@@ -120,6 +147,7 @@
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SETTLER" ReplacesUnitType="UNIT_SETTLER"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_BUILDER" ReplacesUnitType="UNIT_BUILDER"/>
+		<Row CivUniqueUnitType="UNIT_JOHNSON_TRADER" ReplacesUnitType="UNIT_TRADER"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHAEOLOGIST" ReplacesUnitType="UNIT_ARCHAEOLOGIST"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_SPY" ReplacesUnitType="UNIT_SPY"/>
 	</UnitReplaces>
