@@ -6,6 +6,7 @@
 		<Row Type="BUILDING_JOHNSON_TEMPLE" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_WORKSHOP" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_LIBRARY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_JOHNSON_AMPHITHEATER" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_MUSEUM_ART" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_MUSEUM_ARTIFACT" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_JOHNSON_POWER" Kind="KIND_BUILDING"/>
@@ -84,6 +85,20 @@
 			<CitizenSlots>1</CitizenSlots>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_JOHNSON_AMPHITHEATER</BuildingType>
+			<Name>LOC_BUILDING_JOHNSON_AMPHITHEATER_NAME</Name>
+			<Description>LOC_BUILDING_JOHNSON_AMPHITHEATER_DESC</Description>
+			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
+			<PrereqCivic>CIVIC_DRAMA_POETRY</PrereqCivic>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<Cost>22</Cost>
+			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
+			<Housing>2</Housing>
+			<CitizenSlots>1</CitizenSlots>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
+		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_JOHNSON_MUSEUM_ART</BuildingType>
@@ -146,6 +161,8 @@
 	<BuildingPrereqs>
 		<Row Building="BUILDING_JOHNSON_TEMPLE" PrereqBuilding="BUILDING_JOHNSON_SHRINE"/>
 		
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ART" PrereqBuilding="BUILDING_JOHNSON_AMPHITHEATER"/>
+		<Row Building="BUILDING_JOHNSON_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_JOHNSON_AMPHITHEATER"/>
 		<Row Building="BUILDING_JOHNSON_MUSEUM_ART" PrereqBuilding="BUILDING_AMPHITHEATER"/>
 		<Row Building="BUILDING_JOHNSON_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_AMPHITHEATER"/>
 
@@ -177,6 +194,7 @@
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_TEMPLE" ReplacesBuildingType="BUILDING_TEMPLE"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_LIBRARY" ReplacesBuildingType="BUILDING_LIBRARY"/>
+		<Row CivUniqueBuildingType="BUILDING_JOHNSON_AMPHITHEATER" ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MUSEUM_ART" ReplacesBuildingType="BUILDING_MUSEUM_ART"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" ReplacesBuildingType="BUILDING_MUSEUM_ARTIFACT"/>
 		<Row CivUniqueBuildingType="BUILDING_JOHNSON_POWER" ReplacesBuildingType="BUILDING_POWER_PLANT"/>
@@ -192,8 +210,11 @@
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 
-		<!-- Ancient Era: Library boosts science and culture -->
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+		<!-- Ancient Era: Library boosts science -->
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		
+		<!-- Ancient Era: Ampitheatre boosts culture -->
+		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" YieldType="YIELD_CULTURE" YieldChange="9"/>
 
 		<!-- Classical Jump Start Religion -->
 		<Row BuildingType="BUILDING_JOHNSON_SHRINE" YieldType="YIELD_FAITH" YieldChange="9"/>
@@ -206,9 +227,10 @@
 		<!-- Modern Era: Provides electricity, plus more stats for late game benefits -->
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_FOOD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_POWER" YieldType="YIELD_SCIENCE" YieldChange="9"/>
 		
 		<!-- Atomic Era: Broadcast Centers for music and culture -->
-		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_JOHNSON_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="9"/>
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
@@ -223,8 +245,8 @@
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
 
-		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
 		
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
@@ -243,6 +265,9 @@
 		<Row BuildingType="BUILDING_JOHNSON_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		
+		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="2"/>
 
 		<Row BuildingType="BUILDING_JOHNSON_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="4"
 			 ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100"

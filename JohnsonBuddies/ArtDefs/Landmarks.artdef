@@ -999,6 +999,63 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="DIS_THR_CLA_Base02Ampitheater"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="hero_buildings.xlp"/>
+										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="02AClassical Amphitheater"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_JOHNSON_MUSEUM_ART"/>
 										<m_RootCollectionName text="Building"/>
 										<m_ArtDefPath text="Buildings.artdef"/>
@@ -1179,7 +1236,31 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set"/>
+											</Element>
+										</m_Values>
+										<m_ParamName text="Set"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="AMPHITHEATER_J"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..CollectionValue">
+										<m_eObjectType>INVALID</m_eObjectType>
+										<m_eValueType>ARTDEF_REF</m_eValueType>
+										<m_Values>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1200,7 +1281,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_NAT_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1211,7 +1292,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1240,7 +1321,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J, BROADCAST CENTER_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_NAT_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1251,7 +1332,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1272,7 +1353,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_ART_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1283,7 +1364,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1312,7 +1393,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J, BROADCAST CENTER_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_ART_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1323,7 +1404,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1352,7 +1433,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J, FILM STUDIO"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_ART_J, FILM STUDIO"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1363,7 +1444,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1392,7 +1473,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J, FILM STUDIO"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_NAT_J, FILM STUDIO"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -1451,6 +1532,63 @@
 					<Element>
 						<m_CollectionName text="BuildingVariants"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="DIS_THR_CLA_Base02Ampitheater"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="hero_buildings.xlp"/>
+										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="02AClassical Amphitheater"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 						<Element>
 							<m_Fields>
 								<m_Values>
@@ -1577,7 +1715,31 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set"/>
+											</Element>
+										</m_Values>
+										<m_ParamName text="Set"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="AMPHITHEATER_J"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..CollectionValue">
+										<m_eObjectType>INVALID</m_eObjectType>
+										<m_eValueType>ARTDEF_REF</m_eValueType>
+										<m_Values>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1598,7 +1760,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_ART_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1609,7 +1771,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1630,7 +1792,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_NAT_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1641,7 +1803,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1670,7 +1832,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_ART_J, BROADCAST CENTER_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_ART_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<Element>
@@ -1681,7 +1843,7 @@
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
 											<Element class="AssetObjects..ArtDefReferenceValue">
-												<m_ElementName text="BUILDING_AMPHITHEATER"/>
+												<m_ElementName text="BUILDING_JOHNSON_AMPHITHEATER"/>
 												<m_RootCollectionName text="Building"/>
 												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1710,7 +1872,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="AMPHITHEATER, MUSEUM_NAT_J, BROADCAST CENTER_J"/>
+							<m_Name text="AMPHITHEATER_J, MUSEUM_NAT_J, BROADCAST CENTER_J"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

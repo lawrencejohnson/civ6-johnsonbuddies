@@ -181,6 +181,12 @@
 		<Row Tag="LOC_BUILDING_JOHNSON_LIBRARY_DESC" Language="en_US">
 			<Text>A super library from the Johnson family.</Text>
 		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_AMPHITHEATER_NAME" Language="en_US">
+			<Text>Johnson Amphitheater</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JOHNSON_AMPHITHEATER_DESC" Language="en_US">
+			<Text>A super amphitheater from the Johnson family.</Text>
+		</Row>
 		
 		<!-- Classical Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_SHRINE_NAME" Language="en_US">
