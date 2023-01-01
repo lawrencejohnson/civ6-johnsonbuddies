@@ -53,7 +53,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>20</Cost>
+			<Cost>2</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<FoundCity>true</FoundCity>
 			<PopulationCost>0</PopulationCost>
@@ -72,7 +72,7 @@
 			<BaseMoves>12</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>10</Cost>
+			<Cost>2</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
@@ -89,7 +89,7 @@
 			<BaseMoves>12</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>10</Cost>
+			<Cost>4</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS</TraitType>
 			<CanCapture>false</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>
@@ -109,7 +109,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
-			<Cost>100</Cost>
+			<Cost>12</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 			<CanCapture>true</CanCapture>
 			<ZoneOfControl>false</ZoneOfControl>

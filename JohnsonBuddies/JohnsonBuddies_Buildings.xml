@@ -21,7 +21,7 @@
 			<Description>LOC_BUILDING_JOHNSON_MONUMENT_DESC</Description>
 			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>15</Cost>
+			<Cost>2</Cost>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>5</Housing>
 			<CitizenSlots>2</CitizenSlots>
@@ -37,7 +37,7 @@
 			<PrereqDistrict>DISTRICT_HOLY_SITE</PrereqDistrict>
 			<PrereqTech>TECH_ASTROLOGY</PrereqTech>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>15</Cost>
+			<Cost>2</Cost>
 			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -51,7 +51,7 @@
 			<PrereqDistrict>DISTRICT_HOLY_SITE</PrereqDistrict>
 			<PrereqCivic>CIVIC_THEOLOGY</PrereqCivic>
 			<PurchaseYield>YIELD_FAITH</PurchaseYield>
-			<Cost>22</Cost>
+			<Cost>12</Cost>
 			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -65,7 +65,7 @@
 			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>20</Cost>
+			<Cost>2</Cost>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -79,7 +79,7 @@
 			<PrereqDistrict>DISTRICT_CAMPUS</PrereqDistrict>
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>22</Cost>
+			<Cost>12</Cost>
 			<AdvisorType>ADVISOR_TECHNOLOGY</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -93,7 +93,7 @@
 			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
 			<PrereqCivic>CIVIC_DRAMA_POETRY</PrereqCivic>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>22</Cost>
+			<Cost>12</Cost>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -107,7 +107,7 @@
 			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
 			<PrereqCivic>CIVIC_HUMANISM</PrereqCivic>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>72</Cost>
+			<Cost>52</Cost>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -121,7 +121,7 @@
 			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
 			<PrereqCivic>CIVIC_HUMANISM</PrereqCivic>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>72</Cost>
+			<Cost>52</Cost>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -135,7 +135,7 @@
 			<PrereqDistrict>DISTRICT_CITY_CENTER</PrereqDistrict>
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>120</Cost>
+			<Cost>60</Cost>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>5</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -150,7 +150,7 @@
 			<PrereqDistrict>DISTRICT_THEATER</PrereqDistrict>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
-			<Cost>145</Cost>
+			<Cost>70</Cost>
 			<AdvisorType>ADVISOR_CULTURE</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
@@ -205,19 +205,24 @@
 		<!-- Start Game: Monument gives great base stats to any city, except production cuz too OP for early game (run out of stuff to build) -->
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FAITH" YieldChange="1"/>
 		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_FOOD" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_MONUMENT" YieldType="YIELD_SCIENCE" YieldChange="9"/>
 
 		<!-- Ancient Era: Workshop boosts production and gold -->
-		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_GOLD" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 
 		<!-- Ancient Era: Library boosts science -->
 		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_LIBRARY" YieldType="YIELD_CULTURE" YieldChange="9"/>
 		
 		<!-- Ancient Era: Ampitheatre boosts culture -->
 		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_AMPHITHEATER" YieldType="YIELD_GOLD" YieldChange="9"/>
 
 		<!-- Classical Jump Start Religion -->
 		<Row BuildingType="BUILDING_JOHNSON_SHRINE" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_SHRINE" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		<Row BuildingType="BUILDING_JOHNSON_SHRINE" YieldType="YIELD_CULTURE" YieldChange="9"/>
 		<Row BuildingType="BUILDING_JOHNSON_TEMPLE" YieldType="YIELD_FAITH" YieldChange="9"/>
 		
 		<!-- Renaissance Era: Museums provide culture benefits -->

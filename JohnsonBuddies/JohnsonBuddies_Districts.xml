@@ -116,8 +116,13 @@
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
-		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_INDUSTRIAL_ZONE" YieldType="YIELD_GOLD" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_FAITH" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_HOLY_SITE" YieldType="YIELD_GOLD" YieldChange="9"/>
 	</District_CitizenYieldChanges>
 	
 	<AppealHousingChanges>

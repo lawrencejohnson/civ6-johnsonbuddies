@@ -79,7 +79,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
-			<Cost>90</Cost>
+			<Cost>32</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>225</Combat>
@@ -89,7 +89,7 @@
 			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PurchaseYield>YIELD_FAITH</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<InitialLevel>4</InitialLevel>
@@ -103,7 +103,7 @@
 			<BaseMoves>9</BaseMoves>
 			<Domain>DOMAIN_SEA</Domain>
 			<FormationClass>FORMATION_CLASS_NAVAL</FormationClass>
-			<Cost>170</Cost>
+			<Cost>64</Cost>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>235</Combat>
@@ -113,7 +113,7 @@
 			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PurchaseYield>YIELD_FAITH</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_NAVAL_COMBAT</PseudoYieldType>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<InitialLevel>4</InitialLevel>

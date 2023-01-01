@@ -225,7 +225,7 @@
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PurchaseYield>YIELD_FAITH</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_BALLISTICS</PrereqTech>
 			<InitialLevel>4</InitialLevel>
@@ -248,7 +248,7 @@
 			<Range>5</Range>
 			<ZoneOfControl>true</ZoneOfControl>
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
-			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PurchaseYield>YIELD_FAITH</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<InitialLevel>4</InitialLevel>
@@ -269,6 +269,7 @@
 
 	<UnitUpgrades>
 		<Row Unit="UNIT_JOHNSON_SCOUT" UpgradeUnit="UNIT_JOHNSON_RANGER"/>
+		<Row Unit="UNIT_JOHNSON_WARRIOR" UpgradeUnit="UNIT_JOHNSON_SCOUT"/>
 		<Row Unit="UNIT_JOHNSON_SLINGER" UpgradeUnit="UNIT_JOHNSON_ARCHER"/>
 		<Row Unit="UNIT_JOHNSON_ARCHER" UpgradeUnit="UNIT_JOHNSON_MACHINE_GUN"/>
 		<Row Unit="UNIT_JOHNSON_MACHINE_GUN" UpgradeUnit="UNIT_JOHNSON_ROCKET_ARTILLERY"/>
