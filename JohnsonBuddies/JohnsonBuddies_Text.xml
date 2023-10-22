@@ -280,5 +280,22 @@
 		<Row Tag="LOC_TECH_JOHNSON_FUTURE_TECH_DESCRIPTION" Language="en_US">
 			<Text>Can be completed multiple times, but less repetitive clicking.</Text>
 		</Row>
+
+		<!-- Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY_NAME" Language="en_US">
+			<Text>Johnson Military Units Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS_NAME" Language="en_US">
+			<Text>Johnson Civilian Units Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_NAME" Language="en_US">
+			<Text>Johnson Religious Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT_NAME" Language="en_US">
+			<Text>Johnson Monument Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
+			<Text>Johnson Buildings Trait</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

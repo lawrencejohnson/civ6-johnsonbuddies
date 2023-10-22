@@ -41,7 +41,7 @@
 			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS</TraitType>
 		</Row>
 
 		<Row>
@@ -55,7 +55,7 @@
 			<AdvisorType>ADVISOR_RELIGIOUS</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS</TraitType>
 		</Row>
 
 		<Row>
