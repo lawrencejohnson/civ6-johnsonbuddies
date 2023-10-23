@@ -27,7 +27,7 @@
 			<CitizenSlots>2</CitizenSlots>
 			<Entertainment>5</Entertainment>
 			<RegionalRange>6</RegionalRange>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE</TraitType>
 		</Row>
 
 		<Row>
@@ -140,7 +140,7 @@
 			<Housing>5</Housing>
 			<CitizenSlots>1</CitizenSlots>
 			<RegionalRange>6</RegionalRange>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE</TraitType>
 		</Row>
 
 		<Row>

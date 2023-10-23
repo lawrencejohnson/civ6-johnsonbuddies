@@ -237,20 +237,6 @@
 			<Text>A super broadcast center from the Johnson family.</Text>
 		</Row>
 		
-		<!-- Traits -->
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY_NAME" Language="en_US">
-			<Text>Johnson Military</Text>
-		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS_NAME" Language="en_US">
-			<Text>Johnson Civilians</Text>
-		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT_NAME" Language="en_US">
-			<Text>Johnson Monument</Text>
-		</Row>
-		<Row Tag="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
-			<Text>Johnson Buildings</Text>
-		</Row>
-		
 		<!-- Projects -->
 		<Row Tag="LOC_PROJECT_JOHNSON_IDLE_PRODUCTION_NAME" Language="en_US">
 			<Text>Johnson City Idle</Text>
@@ -291,8 +277,8 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_NAME" Language="en_US">
 			<Text>Johnson Religious Trait</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_MONUMENT_NAME" Language="en_US">
-			<Text>Johnson Monument Trait</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE_NAME" Language="en_US">
+			<Text>Johnson City Base Trait</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
 			<Text>Johnson Buildings Trait</Text>
