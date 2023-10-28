@@ -30,7 +30,7 @@
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
 			<Appeal>1</Appeal>
-			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS</TraitType>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_BUILDINGS</TraitType>
 		</Row>
 		
 		<Row>

@@ -30,12 +30,15 @@
 			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
 			<Combat>245</Combat>
 			<RangedCombat>245</RangedCombat>
+			<AntiAirCombat>245</AntiAirCombat>
 			<Range>5</Range>
+			<CanTargetAir>TRUE</CanTargetAir>
 			<ZoneOfControl>true</ZoneOfControl>
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<PseudoYieldType>PSEUDOYIELD_UNIT_EXPLORER</PseudoYieldType>
 			<PrereqTech>TECH_PLASTICS</PrereqTech>
+			<InitialLevel>4</InitialLevel>
 		</Row>
 	</Units>
 

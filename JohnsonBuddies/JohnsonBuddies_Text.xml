@@ -274,8 +274,11 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_CIVILIANS_NAME" Language="en_US">
 			<Text>Johnson Civilian Units Trait</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_NAME" Language="en_US">
-			<Text>Johnson Religious Trait</Text>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_UNITS_NAME" Language="en_US">
+			<Text>Johnson Religious Units Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_BUILDINGS_NAME" Language="en_US">
+			<Text>Johnson Religious Buildings Trait</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE_NAME" Language="en_US">
 			<Text>Johnson City Base Trait</Text>
