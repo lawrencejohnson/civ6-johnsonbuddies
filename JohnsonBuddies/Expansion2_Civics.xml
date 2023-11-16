@@ -4,20 +4,187 @@
 <!-- DateCreated: 5/6/2022 8:15:27 PM -->
 <GameData>
 	<Civics>
+		<!--
+		<Update>
+			<Where CivicType="CIVIC_GLOBAL_WARMING_MITIGATION"/>
+			<Set>
+				<UITreeRow>-2</UITreeRow>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SMART_POWER_DOCTRINE"/>
+			<Set>
+				<UITreeRow>-1</UITreeRow>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_INFORMATION_WARFARE"/>
+			<Set>
+				<UITreeRow>0</UITreeRow>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXODUS_IMPERATIVE"/>
+			<Set>
+				<UITreeRow>1</UITreeRow>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CULTURAL_HEGEMONY"/>
+			<Set>
+				<UITreeRow>2</UITreeRow>
+			</Set>
+		</Update>
+		-->
+		
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC"/>
+			<Set>
+				<UITreeRow>0</UITreeRow>
+				<Repeatable>false</Repeatable>
+			</Set>
+		</Update>
+		
+		<Update>
+			<Where CivicType="CIVIC_JOHNSON_FUTURE_CIVIC_QUICK"/>
+			<Set>
+				<EraType>ERA_FUTURE</EraType>
+				<Description>LOC_CIVIC_JOHNSON_FUTURE_CIVIC_QUICK_XP2_DESCRIPTION</Description>
+				<UITreeRow>-1</UITreeRow>
+			</Set>
+		</Update>
 		<Update>
 			<Where CivicType="CIVIC_JOHNSON_FUTURE_CIVIC"/>
 			<Set>
 				<EraType>ERA_FUTURE</EraType>
 				<Description>LOC_CIVIC_JOHNSON_FUTURE_CIVIC_XP2_DESCRIPTION</Description>
+				<UITreeRow>1</UITreeRow>
 			</Set>
 		</Update>
 	</Civics>
 
+	<CivicPrereqs>
+		<!-- Remove Any Potential Requirements from what should be randoms -->
+		<Delete Civic="CIVIC_GLOBAL_WARMING_MITIGATION" />
+		<Delete Civic="CIVIC_SMART_POWER_DOCTRINE" />
+		<Delete Civic="CIVIC_INFORMATION_WARFARE" />
+		<Delete Civic="CIVIC_EXODUS_IMPERATIVE" />
+		<Delete Civic="CIVIC_CULTURAL_HEGEMONY" />
+		
+		<!-- Remove Previous Preqs from Future Civic -->
+		<Delete Civic="CIVIC_FUTURE_CIVIC" />
+
+		<!-- Remove Previous Preqs from Johnson Future Civic -->
+		<Delete Civic="CIVIC_JOHNSON_FUTURE_CIVIC_QUICK" />
+		<Delete Civic="CIVIC_JOHNSON_FUTURE_CIVIC" />
+		
+		<!-- Set Requirements for New XP2 Civics -->
+		<Row Civic="CIVIC_GLOBAL_WARMING_MITIGATION" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Row Civic="CIVIC_INFORMATION_WARFARE" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Row Civic="CIVIC_EXODUS_IMPERATIVE" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Row Civic="CIVIC_SMART_POWER_DOCTRINE" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Row Civic="CIVIC_CULTURAL_HEGEMONY" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+		<Row Civic="CIVIC_FUTURE_CIVIC" PrereqCivic="CIVIC_NEAR_FUTURE_GOVERNANCE"/>
+
+		<!-- Set Johnson Future Civic Requirements -->
+		<Row Civic="CIVIC_JOHNSON_FUTURE_CIVIC_QUICK" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
+		<Row Civic="CIVIC_JOHNSON_FUTURE_CIVIC" PrereqCivic="CIVIC_FUTURE_CIVIC"/>
+	</CivicPrereqs>
+
 	<Civics_XP2>
-		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+
+		<!--
+		<Delete HiddenUntilPrereqComplete="true"/>
+		<Delete RandomPrereqs="true"/>
+		-->
+
+		
+		<Update>
+			<Where RandomPrereqs="true"/>
+			<Set>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC_QUICK" HiddenUntilPrereqComplete="true" RandomPrereqs="false"/>
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" HiddenUntilPrereqComplete="true" RandomPrereqs="false"/>
+
+		<!--
+		<Update>
+			<Where RandomPrereqs="true"/>
+			<Set>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC_QUICK" HiddenUntilPrereqComplete="false" RandomPrereqs="false"/>
+		<Row CivicType="CIVIC_JOHNSON_FUTURE_CIVIC" HiddenUntilPrereqComplete="false" RandomPrereqs="false"/>
+		-->
+		
+		<!--
+		<Update>
+			<Where CivicType="CIVIC_GLOBAL_WARMING_MITIGATION"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_SMART_POWER_DOCTRINE"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_INFORMATION_WARFARE"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_EXODUS_IMPERATIVE"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_CULTURAL_HEGEMONY"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		<Update>
+			<Where CivicType="CIVIC_FUTURE_CIVIC"/>
+			<Set>
+				<HiddenUntilPrereqComplete>false</HiddenUntilPrereqComplete>
+				<RandomPrereqs>false</RandomPrereqs>
+			</Set>
+		</Update>
+		-->
+
+		<!--
+		<Row CivicType="CIVIC_GLOBAL_WARMING_MITIGATION" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		<Row CivicType="CIVIC_SMART_POWER_DOCTRINE" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		<Row CivicType="CIVIC_INFORMATION_WARFARE" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		<Row CivicType="CIVIC_EXODUS_IMPERATIVE" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		<Row CivicType="CIVIC_CULTURAL_HEGEMONY" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		<Row CivicType="CIVIC_FUTURE_CIVIC" HiddenUntilPrereqComplete="true" RandomPrereqs="true"/>
+		-->
 	</Civics_XP2>
 
 	<CivicModifiers>
+		<Row>
+			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC_QUICK</CivicType>
+			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC_QUICK</CivicType>
+			<ModifierId>CIVIC_GRANT_FAVOR</ModifierId>
+		</Row>
 		<Row>
 			<CivicType>CIVIC_JOHNSON_FUTURE_CIVIC</CivicType>
 			<ModifierId>CIVIC_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>

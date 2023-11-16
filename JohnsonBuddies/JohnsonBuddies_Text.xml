@@ -249,6 +249,16 @@
 		</Row>
 		
 		<!-- Civics -->
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_QUICK_NAME" Language="en_US">
+			<Text>Johnson Civic (Quick)</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_QUICK_DESCRIPTION" Language="en_US">
+			<Text>Can be completed multiple times at normal future civic cost. Repetitive with high culture output.</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_QUICK_XP2_DESCRIPTION" Language="en_US">
+			<Text>Can be completed multiple times, with less repetitive clicking. Also awards 1 [ICON_Governor] Governor title and 50 [ICON_Favor] Diplomatic Favor each time it is completed.</Text>
+		</Row>
+		
 		<Row Tag="LOC_CIVIC_JOHNSON_FUTURE_CIVIC_NAME" Language="en_US">
 			<Text>Johnson Civic</Text>
 		</Row>
