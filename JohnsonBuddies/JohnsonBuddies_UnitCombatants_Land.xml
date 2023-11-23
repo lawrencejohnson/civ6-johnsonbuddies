@@ -10,6 +10,8 @@
 		<Row Type="UNIT_JOHNSON_ARCHER" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_MACHINE_GUN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Kind="KIND_UNIT"/>
+
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Kind="KIND_UNIT"/>
 	</Types>
 
 	<UnitAiInfos>
@@ -47,6 +49,12 @@
 		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		
+		<Row UnitType="UNIT_JOHNSON_MILITARY_ENGINEER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_MILITARY_ENGINEER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_JOHNSON_MILITARY_ENGINEER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_JOHNSON_MILITARY_ENGINEER" AiType="CLASS_BUILDER"/>
 	</UnitAiInfos>
 
 	<TypeTags>
@@ -99,6 +107,12 @@
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_OBSERVATION"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_MOBILE_RANGED"/>
 		<Row Type="UNIT_JOHNSON_ROCKET_ARTILLERY" Tag="CLASS_ANTI_AIR"/>
+
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Tag="CLASS_HELICOPTER"/>
+		<Row Type="UNIT_JOHNSON_MILITARY_ENGINEER" Tag="CLASS_OBSERVATION"/>
 	</TypeTags>
 
 	<Units>
@@ -253,6 +267,24 @@
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<InitialLevel>4</InitialLevel>
 		</Row>
+
+		<Row>
+			<UnitType>UNIT_JOHNSON_MILITARY_ENGINEER</UnitType>
+			<Name>LOC_UNIT_JOHNSON_MILITARY_ENGINEER_NAME</Name>
+			<Description>LOC_JOHNSON_MILITARY_ENGINEER_DESC</Description>
+			<BaseSightRange>6</BaseSightRange>
+			<BaseMoves>9</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<Cost>7</Cost>
+			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_UNITS_MILITARY</TraitType>
+			<PromotionClass>PROMOTION_CLASS_JOHNSON_COMBATANT</PromotionClass>
+			<Combat>225</Combat>
+			<ZoneOfControl>true</ZoneOfControl>
+			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<InitialLevel>3</InitialLevel>
+			<BuildCharges>9</BuildCharges>
+		</Row>
 	</Units>
 
 	<UnitReplaces>
@@ -265,6 +297,8 @@
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ARCHER" ReplacesUnitType="UNIT_ARCHER"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_MACHINE_GUN" ReplacesUnitType="UNIT_MACHINE_GUN"/>
 		<Row CivUniqueUnitType="UNIT_JOHNSON_ROCKET_ARTILLERY" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
+
+		<Row CivUniqueUnitType="UNIT_JOHNSON_MILITARY_ENGINEER" ReplacesUnitType="UNIT_MILITARY_ENGINEER"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>

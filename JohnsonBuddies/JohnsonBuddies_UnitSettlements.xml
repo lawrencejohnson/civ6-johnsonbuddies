@@ -155,4 +155,16 @@
 	<Unit_BuildingPrereqs>
 		<Row Unit="UNIT_JOHNSON_ARCHAEOLOGIST" PrereqBuilding="BUILDING_JOHNSON_MUSEUM_ARTIFACT" NumSupported="1"/>
 	</Unit_BuildingPrereqs>
+
+	<Route_ValidBuildUnits>
+		<Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+
+		<Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_JOHNSON_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_JOHNSON_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_JOHNSON_MILITARY_ENGINEER"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_JOHNSON_MILITARY_ENGINEER"/>
+	</Route_ValidBuildUnits>
 </GameData>
