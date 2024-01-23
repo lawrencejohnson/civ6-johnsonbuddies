@@ -5,6 +5,6 @@
 <GameData>
 	<Districts_XP2>
 		<!-- OnePerRiver may need to be true in order for PreventsFlood to work - untested -->
-		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" OnePerRiver="false" PreventsDrought="true" PreventsFloods="true" />
+		<Row DistrictType="DISTRICT_JOHNSON_NEIGHBORHOOD" OnePerRiver="true" PreventsDrought="true" PreventsFloods="true" />
 	</Districts_XP2>
 </GameData>

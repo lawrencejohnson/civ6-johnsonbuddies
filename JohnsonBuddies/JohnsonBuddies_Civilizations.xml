@@ -28,7 +28,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_CITY_BASE_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS" Name="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME"/>
 	</Traits>
-	
+
 	<CivilizationTraits>
 		<!-- Civs Allowed Here in this file (base game - see expansion files for using civs released in later expacs
 			CIVILIZATION_AMERICA
@@ -50,7 +50,7 @@
 			CIVILIZATION_SPAIN
 			CIVILIZATION_SUMERIA
 		-->
-		
+
 		<!-- Add or Remove Civilizations to receive Johnson Buddies 
 		
 		

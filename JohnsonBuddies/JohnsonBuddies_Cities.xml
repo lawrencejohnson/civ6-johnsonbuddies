@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<CityNames>
+		<!-- Japan Extended -->
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_NIKKO"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_NARA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_AKASHI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_TOKUSHIMA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SAGA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_YAMAGUCHI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_IWATA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SAKURA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SAYAMA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_KOMAKI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_INAZAWA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SAITAMA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_YAIZU" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_HABIKINO" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_KOMATSU" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SHIBATA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_CHITOSE" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_GINOWAN" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_SUKAGAWA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_HAMADA" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_IZUMI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_NONOICHI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_MIDORI" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_MIZUHO" />
+		<Row CivilizationType="CIVILIZATION_JAPAN" CityName="LOC_CITY_NAME_JOHNSON_KOMAGANE" />
+	</CityNames>
+</GameData>

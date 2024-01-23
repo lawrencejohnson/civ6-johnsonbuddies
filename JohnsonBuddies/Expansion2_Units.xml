@@ -49,4 +49,8 @@
 	<UnitUpgrades>
 		<Row Unit="UNIT_JOHNSON_RANGER" UpgradeUnit="UNIT_JOHNSON_SPEC_OPS"/>
 	</UnitUpgrades>
+
+	<Route_ValidBuildUnits>
+		<Row RouteType="ROUTE_RAILROAD" UnitType="UNIT_JOHNSON_BUILDER"/>
+	</Route_ValidBuildUnits>
 </GameData>

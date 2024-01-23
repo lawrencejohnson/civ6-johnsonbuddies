@@ -162,6 +162,35 @@
 		<Row Tag="LOC_DISTRICT_JOHNSON_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
 			<Text>Johnson family industrial zone for beefy production.</Text>
 		</Row>
+		
+		<Row Tag="LOC_DISTRICT_JOHNSON_COMMERCIAL_HUB_NAME" Language="en_US">
+			<Text>Johnson Commercial Hub</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_COMMERCIAL_HUB_DESCRIPTION" Language="en_US">
+			<Text>Johnson family commercial hub for financials.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_JOHNSON_HARBOR_NAME" Language="en_US">
+			<Text>Johnson Harbor</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_HARBOR_DESCRIPTION" Language="en_US">
+			<Text>Johnson family harbor for boats.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_JOHNSON_THEATER_NAME" Language="en_US">
+			<Text>Johnson Theatre</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_THEATER_DESCRIPTION" Language="en_US">
+			<Text>Johnson family theatre for big shows.</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_JOHNSON_CAMPUS_NAME" Language="en_US">
+			<Text>Johnson Campus</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_CAMPUS_DESCRIPTION" Language="en_US">
+			<Text>Johnson family campus for studying.</Text>
+		</Row>
+
 		<Row Tag="LOC_DISTRICT_JOHNSON_HOLY_SITE_NAME" Language="en_US">
 			<Text>Johnson Holy Site</Text>
 		</Row>
@@ -295,6 +324,80 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS_NAME" Language="en_US">
 			<Text>Johnson Buildings Trait</Text>
+		</Row>
+		
+		<!-- City Names-->
+		<Row Tag="LOC_CITY_NAME_JOHNSON_NIKKO" Language="en_US">
+			<Text>Nikko</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_NARA" Language="en_US">
+			<Text>Nara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_AKASHI" Language="en_US">
+			<Text>Akashi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_TOKUSHIMA" Language="en_US">
+			<Text>Tokushima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SAGA" Language="en_US">
+			<Text>Saga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_YAMAGUCHI" Language="en_US">
+			<Text>Yamaguchi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_IWATA" Language="en_US">
+			<Text>Iwata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SAKURA" Language="en_US">
+			<Text>Sakura</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SAYAMA" Language="en_US">
+			<Text>Sayama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_KOMAKI" Language="en_US">
+			<Text>Komaki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_INAZAWA" Language="en_US">
+			<Text>Inazawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SAITAMA" Language="en_US">
+			<Text>Saitama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_HABIKINO" Language="en_US">
+			<Text>Habikino</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_KOMATSU" Language="en_US">
+			<Text>Komatsu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SHIBATA" Language="en_US">
+			<Text>Shibata</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_CHITOSE" Language="en_US">
+			<Text>Chitose</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_GINOWAN" Language="en_US">
+			<Text>Ginowana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_SUKAGAWA" Language="en_US">
+			<Text>Sukagawa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_HAMADA" Language="en_US">
+			<Text>Hamada</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_IZUMI" Language="en_US">
+			<Text>Izumi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_NONOICHI" Language="en_US">
+			<Text>Nonoichi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_MIDORI" Language="en_US">
+			<Text>Midori</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_MIZUHO" Language="en_US">
+			<Text>Mizuho</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JOHNSON_KOMAGANE" Language="en_US">
+			<Text>Komagane</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
