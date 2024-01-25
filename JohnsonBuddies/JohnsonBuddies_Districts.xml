@@ -266,7 +266,9 @@
 		<Row DistrictType="DISTRICT_JOHNSON_COMMERCIAL_HUB" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Row DistrictType="DISTRICT_JOHNSON_COMMERCIAL_HUB" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 		<Row DistrictType="DISTRICT_JOHNSON_CAMPUS" YieldType="YIELD_SCIENCE" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_CAMPUS" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 		<Row DistrictType="DISTRICT_JOHNSON_THEATER" YieldType="YIELD_CULTURE" YieldChange="9"/>
+		<Row DistrictType="DISTRICT_JOHNSON_THEATER" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
 	</District_CitizenYieldChanges>
 	
 	<AppealHousingChanges>
