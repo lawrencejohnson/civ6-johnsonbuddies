@@ -198,6 +198,13 @@
 			<Text>Johnson family holy site for very strong religious beliefs.</Text>
 		</Row>
 
+		<Row Tag="LOC_DISTRICT_JOHNSON_ENCAMPMENT_NAME" Language="en_US">
+			<Text>Johnson Encampment</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_JOHNSON_ENCAMPMENT_DESCRIPTION" Language="en_US">
+			<Text>Johnson encampment for training the elite.</Text>
+		</Row>
+
 		<!-- Ancient Buildings -->
 		<Row Tag="LOC_BUILDING_JOHNSON_MONUMENT_NAME" Language="en_US">
 			<Text>Johnson Monument</Text>
