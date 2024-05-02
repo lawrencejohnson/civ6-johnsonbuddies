@@ -33,7 +33,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TravelTime>3</TravelTime>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
@@ -56,7 +56,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TravelTime>3</TravelTime>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
@@ -83,7 +83,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>DOMAIN_SEA</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TravelTime>2</TravelTime>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
@@ -106,7 +106,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 		
@@ -129,7 +129,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_RELIGIOUS_BUILDINGS</TraitType>
 		</Row>
 		
@@ -151,7 +151,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 		
@@ -174,7 +174,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
@@ -196,7 +196,7 @@
 			<CaptureRemovesCityDefenses>false</CaptureRemovesCityDefenses>
 			<CityStrengthModifier>5</CityStrengthModifier>
 			<MilitaryDomain>NO_DOMAIN</MilitaryDomain>
-			<Appeal>1</Appeal>
+			<Appeal>3</Appeal>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 			<HitPoints>200</HitPoints>
 		</Row>

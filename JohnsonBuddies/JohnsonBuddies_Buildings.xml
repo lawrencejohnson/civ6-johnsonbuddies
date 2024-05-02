@@ -69,6 +69,8 @@
 			<AdvisorType>ADVISOR_GENERIC</AdvisorType>
 			<Housing>2</Housing>
 			<CitizenSlots>1</CitizenSlots>
+			<Entertainment>5</Entertainment>
+			<RegionalRange>6</RegionalRange>
 			<TraitType>TRAIT_CIVILIZATION_JOHNSON_BUDDIES_BUILDINGS</TraitType>
 		</Row>
 
